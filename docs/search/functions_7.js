@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['init',['Init',['../class_world_manager.html#af1cffd594376f536be230aa5b66aeb60',1,'WorldManager']]]
+  ['knockback',['Knockback',['../classPlayer.html#a1fd5c8cc69ecd6c5d9d4b8956b8e2534',1,'Player']]]
 ];

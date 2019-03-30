@@ -1,23 +1,9 @@
 var searchData=
 [
-  ['damage',['damage',['../class_enemy.html#a3ef833cc53337ccc5de559a828e8a723',1,'Enemy.damage()'],['../class_projectile.html#a4274f7b3ad22794f7cc4be95da235bf4',1,'Projectile.damage()']]],
-  ['data',['data',['../class_game_script.html#afdfe1fae37779b9baab00f77a6dc7f1e',1,'GameScript.data()'],['../class_chunk_data.html#a9a464a7a9fd7523438834b3a57407e19',1,'ChunkData.Data()']]],
-  ['dead',['Dead',['../class_player.html#a4aaaf22c35d6b94e14b2ab154af21965',1,'Player.Dead()'],['../class_game_script.html#acfdb63d5fed4ef233c3b88562c0d5fe4',1,'GameScript.dead()']]],
-  ['deathsound',['deathSound',['../class_enemy.html#a70bd1431e9ce4fe152b6973dc5b72ce7',1,'Enemy']]],
-  ['defaultname',['defaultName',['../class_enemy.html#a158843543173966553e8085da5ce574b',1,'Enemy.defaultName()'],['../class_pickup.html#ac276dc791c275a5f69eadd3e074862e8',1,'Pickup.defaultName()']]],
-  ['defaultspeed',['defaultSpeed',['../class_enemy.html#abcf91235e91c6d643c6ef6a8a1d2a657',1,'Enemy.defaultSpeed()'],['../class_projectile.html#ae73153294958247d4ccd88ba1fac609f',1,'Projectile.defaultSpeed()']]],
-  ['deltatime',['deltaTime',['../class_enemy.html#a2fb7dd0f4340441b94625e10746c59b5',1,'Enemy.deltaTime()'],['../class_player.html#a6edcce667e2f53e4ab994c159a8ad118',1,'Player.deltaTime()'],['../class_projectile.html#a9c9b79f11387a75dfc664d84f07ab5dc',1,'Projectile.deltaTime()']]],
-  ['diagonal',['diagonal',['../class_chunk_data.html#ac7ccd4b469acdc6d7713b023deef6965',1,'ChunkData']]],
-  ['difficulty',['difficulty',['../class_difficulty_manager.html#a77dbf23c87375799bf43495f3a83b4a8',1,'DifficultyManager']]],
-  ['difficultymanager',['DifficultyManager',['../class_difficulty_manager.html',1,'']]],
-  ['difficultymanager_2ecs',['DifficultyManager.cs',['../_difficulty_manager_8cs.html',1,'']]],
-  ['difftext',['diffText',['../class_difficulty_manager.html#ae11df5e3a1f757973627d970c39a15d7',1,'DifficultyManager']]],
-  ['dint',['DInt',['../class_chunk_data.html#a45985f4f1eca77564f46d453e7c13fde',1,'ChunkData']]],
-  ['direct',['Direct',['../class_teleporter_data.html#a6ed8f2f08dcb14492da07bfe954b0c2eafd1dd0c603be8170f9eae0be9f2f6afb',1,'TeleporterData']]],
-  ['direction',['Direction',['../class_enemy.html#a45d56033da27cc48fba995242e1b8c1e',1,'Enemy.Direction()'],['../class_projectile.html#a117a5b2f9a9e05cd541a949d47f8d83c',1,'Projectile.Direction()'],['../_game_utility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aa',1,'Direction():&#160;GameUtility.cs']]],
-  ['directiontovector2int',['DirectionToVector2Int',['../class_game_utility.html#a749c4e43bd3771fe0628512d4204463b',1,'GameUtility']]],
-  ['door',['Door',['../class_door.html',1,'']]],
-  ['door_2ecs',['Door.cs',['../_door_8cs.html',1,'']]],
-  ['down',['Down',['../_game_utility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aaa08a38277b0309070706f6652eeae9a53',1,'GameUtility.cs']]],
-  ['dropheart',['dropHeart',['../class_enemy.html#a1b07ce03f374b3fc410d7f07353c0a95',1,'Enemy']]]
+  ['enemy',['Enemy',['../classEnemy.html',1,'']]],
+  ['enemy_2ecs',['Enemy.cs',['../Enemy_8cs.html',1,'']]],
+  ['enemylayer',['enemyLayer',['../classGameScript.html#a4692624553dfc4da7df70dae96435d46',1,'GameScript']]],
+  ['enemymanager',['EnemyManager',['../classEnemyManager.html',1,'']]],
+  ['enemymanager_2ecs',['EnemyManager.cs',['../EnemyManager_8cs.html',1,'']]],
+  ['explored',['explored',['../classChunkData.html#a3abedf53e27d2a94adeec59ae496fb1e',1,'ChunkData']]]
 ];

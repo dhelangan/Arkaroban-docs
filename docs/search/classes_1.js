@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['difficultymanager',['DifficultyManager',['../class_difficulty_manager.html',1,'']]],
-  ['door',['Door',['../class_door.html',1,'']]]
+  ['difficultymanager',['DifficultyManager',['../classDifficultyManager.html',1,'']]],
+  ['door',['Door',['../classDoor.html',1,'']]]
 ];

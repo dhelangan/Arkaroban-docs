@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['name',['name',['../class_receiver_data.html#a8624e07298069a36ae099580ff605d9e',1,'ReceiverData.name()'],['../class_world_tile.html#aba93efb9ec6bbb596c2e81e96817b910',1,'WorldTile.name()']]],
-  ['newboss',['newBoss',['../class_u_i_manager.html#adaa20b6ad42dfe597ea6d78cae6ea7cb',1,'UIManager']]],
-  ['nocontactdamage',['noContactDamage',['../class_enemy.html#a96cc09ef156c3aabb6193665f9075ac9',1,'Enemy']]]
+  ['onenable',['OnEnable',['../classSortingLayerExposer.html#a1838e7236db02a388a96963686d416c7',1,'SortingLayerExposer']]],
+  ['onetimeonly',['oneTimeOnly',['../classPickup.html#aaf0d0af361b0bfe213069028a4cfa4ac',1,'Pickup']]],
+  ['onhitenemy',['OnHitEnemy',['../classProjectile.html#ad7a8a0368ec7879d6f6215c7025f4c00',1,'Projectile']]],
+  ['onhitground',['OnHitGround',['../classProjectile.html#a645aa9ab1b3229ebbcf988a6bb752837',1,'Projectile']]],
+  ['onhitplayer',['OnHitPlayer',['../classEnemy.html#aeadc0c30ddf20c79ede233bdc7fede41',1,'Enemy.OnHitPlayer()'],['../classPickup.html#a2eb4b21bdb11c08612d9eabda9c6061e',1,'Pickup.OnHitPlayer()'],['../classProjectile.html#ac64b98a9ef9f533db86ad45a26f2fdfc',1,'Projectile.OnHitPlayer()']]],
+  ['onvalidate',['OnValidate',['../classSortingLayerExposer.html#a81bcbc07caf490ed71bd283a30c32f7c',1,'SortingLayerExposer']]]
 ];

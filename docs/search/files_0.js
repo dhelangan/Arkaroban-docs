@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cinemachinepixelperfect_2ecs',['CinemachinePixelPerfect.cs',['../_cinemachine_pixel_perfect_8cs.html',1,'']]]
+  ['cinemachinepixelperfect_2ecs',['CinemachinePixelPerfect.cs',['../CinemachinePixelPerfect_8cs.html',1,'']]]
 ];

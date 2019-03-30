@@ -1,29 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../class_game_script.html#af6c0aa8862924ef3659184658da2390b',1,'GameScript.main()'],['../class_music_manager.html#a60910b3691aed6cf2d77fc81173e6ab9',1,'MusicManager.main()'],['../class_room_manager.html#a65b763299acc62a3fd173bc680110d23',1,'RoomManager.main()'],['../class_sound_manager.html#ae2baf68f2a8ef21527c79e92d784d608',1,'SoundManager.main()'],['../class_u_i_manager.html#a4deaa051a60b56840d61437bbed95733',1,'UIManager.main()'],['../class_world_manager.html#a4852165fdbe0efa258c4908943cf66b5',1,'WorldManager.main()']]],
-  ['map',['map',['../class_world_manager.html#a871e3a17a4fb3572e8e5e626560e3e06',1,'WorldManager']]],
-  ['mapsize',['mapSize',['../class_world_manager.html#ad81234bb0506228d0d0b8e0bd53def43',1,'WorldManager']]],
-  ['marker',['marker',['../class_chunk_data.html#aacd349789a617adf54eafbe1ee80bba8',1,'ChunkData']]],
-  ['markercolor',['markerColor',['../class_chunk_data.html#ab2bba38a91e028c0775d61f616e291d6',1,'ChunkData']]],
-  ['markerdata',['MarkerData',['../class_marker_data.html',1,'MarkerData'],['../class_u_i_manager.html#a23af07a1002ad94df3e97e025eba5f89',1,'UIManager.markerData()']]],
-  ['markerdata_2ecs',['MarkerData.cs',['../_marker_data_8cs.html',1,'']]],
-  ['mask',['mask',['../class_physics_object.html#aa275794d8ee277f2aa9f04b0418298cb',1,'PhysicsObject']]],
-  ['maxhealth',['maxHealth',['../class_enemy.html#a8b07f3d878fad31e3090fbeca43638e8',1,'Enemy.maxHealth()'],['../class_player.html#ac51bc0232fa16f956acee68e1635f7dc',1,'Player.maxHealth()']]],
-  ['maxspeed',['maxSpeed',['../class_player.html#aeb49f43f1ede71106350b2480c38c2d1',1,'Player']]],
-  ['menu',['Menu',['../class_menu.html',1,'']]],
-  ['menu_2ecs',['Menu.cs',['../_menu_8cs.html',1,'']]],
-  ['mingroundnormaly',['minGroundNormalY',['../class_physics_object.html#afb50523f15eb74484bb8ac11d85b6358',1,'PhysicsObject']]],
-  ['minimap',['minimap',['../class_u_i_manager.html#a54ac29ad5cb26f3830c9b61b1ade27a9',1,'UIManager']]],
-  ['minimapcenter',['minimapCenter',['../class_u_i_manager.html#a719e184f2cccd3e430ccabab44babb2e',1,'UIManager']]],
-  ['minimapcolor0',['minimapColor0',['../class_u_i_manager.html#a16662003201dbc04f452b9aace6a504a',1,'UIManager']]],
-  ['minimapcolor1',['minimapColor1',['../class_u_i_manager.html#a0f652976860c49dca06d0377682553e9',1,'UIManager']]],
-  ['minimapimage',['minimapImage',['../class_u_i_manager.html#ac9e395b233d2439043688f503b0c2c38',1,'UIManager']]],
-  ['minimapsize',['minimapSize',['../class_u_i_manager.html#a269f32893d17731c0b7627a9fb9e0d41',1,'UIManager']]],
-  ['minmovedist',['minMoveDist',['../class_physics_object.html#a6c430141168717d07192e87c72b770d0',1,'PhysicsObject']]],
-  ['movement',['Movement',['../class_physics_object.html#a0e2073902a5c83bb13e9643bfb7d300d',1,'PhysicsObject']]],
-  ['music',['music',['../class_music_data.html#a2b7ac3f01161ed450ab1e8b4debdcd51',1,'MusicData']]],
-  ['musicdata',['MusicData',['../class_music_data.html',1,'']]],
-  ['musicdata_2ecs',['MusicData.cs',['../_music_data_8cs.html',1,'']]],
-  ['musicmanager',['MusicManager',['../class_music_manager.html',1,'']]],
-  ['musicmanager_2ecs',['MusicManager.cs',['../_music_manager_8cs.html',1,'']]]
+  ['name',['name',['../classReceiverData.html#a8624e07298069a36ae099580ff605d9e',1,'ReceiverData.name()'],['../classWorldTile.html#aba93efb9ec6bbb596c2e81e96817b910',1,'WorldTile.name()']]],
+  ['nocontactdamage',['noContactDamage',['../classEnemy.html#a96cc09ef156c3aabb6193665f9075ac9',1,'Enemy']]]
 ];

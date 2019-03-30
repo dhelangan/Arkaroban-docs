@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['enemy_2ecs',['Enemy.cs',['../_enemy_8cs.html',1,'']]],
-  ['enemymanager_2ecs',['EnemyManager.cs',['../_enemy_manager_8cs.html',1,'']]]
+  ['enemy_2ecs',['Enemy.cs',['../Enemy_8cs.html',1,'']]],
+  ['enemymanager_2ecs',['EnemyManager.cs',['../EnemyManager_8cs.html',1,'']]]
 ];

@@ -1,16 +1,14 @@
 var searchData=
 [
-  ['canchange',['canChange',['../class_difficulty_manager.html#ae5dc5f3f432b173e205c3677461cec61',1,'DifficultyManager']]],
-  ['canshoot',['canShoot',['../class_player.html#a7a6957a094a9aa036c8805b5a8ec3765',1,'Player']]],
-  ['cb',['CB',['../class_cinemachine_pixel_perfect.html#afca4f767a2a991e380ac5d8fd8703387',1,'CinemachinePixelPerfect']]],
-  ['centernode',['centerNode',['../class_u_i_manager.html#a3eab734d5c8062f73b6886785c377984',1,'UIManager']]],
-  ['chunkpos',['chunkPos',['../class_teleporter_data.html#ab2c0f3fa63c08cc3a8233410ae140825',1,'TeleporterData.chunkPos()'],['../class_receiver_data.html#aa6d0fde0f4c97fea2e0490f5587b75d3',1,'ReceiverData.chunkPos()']]],
-  ['chunksize',['chunkSize',['../class_room_data.html#aae617944f0673a3ee7bb8b5f0b21b135',1,'RoomData']]],
-  ['chunktopleft',['chunkTopLeft',['../class_room_data.html#a510b008959e6a87dd2f45ba697dfc71a',1,'RoomData']]],
-  ['colliderhitbuffer',['colliderHitBuffer',['../class_projectile.html#aadcd66e5694ecd0e843da6e4e25bc508',1,'Projectile']]],
-  ['color',['color',['../class_stage_data.html#a21a51eea0371e02c51eed8e5ad9ba3c5',1,'StageData']]],
-  ['contactfilter',['contactFilter',['../class_physics_object.html#a6579ebab859911e3c23fa89746246e70',1,'PhysicsObject']]],
-  ['currentnormal',['currentNormal',['../class_physics_object.html#acfcaedf47dddfda2413dbf1c67d10edf',1,'PhysicsObject']]],
-  ['cyan0',['cyan0',['../class_game_utility.html#a6bf95ebd802db2f77eaf3c9cc0ccc0e0',1,'GameUtility']]],
-  ['cyan6',['cyan6',['../class_game_utility.html#a753766f1197582e268c1af64c53d7cef',1,'GameUtility']]]
+  ['damage',['damage',['../classEnemy.html#a3ef833cc53337ccc5de559a828e8a723',1,'Enemy.damage()'],['../classProjectile.html#a4274f7b3ad22794f7cc4be95da235bf4',1,'Projectile.damage()']]],
+  ['data',['data',['../classGameScript.html#afdfe1fae37779b9baab00f77a6dc7f1e',1,'GameScript']]],
+  ['dead',['dead',['../classGameScript.html#acfdb63d5fed4ef233c3b88562c0d5fe4',1,'GameScript']]],
+  ['deathsound',['deathSound',['../classEnemy.html#a70bd1431e9ce4fe152b6973dc5b72ce7',1,'Enemy']]],
+  ['defaultname',['defaultName',['../classEnemy.html#a158843543173966553e8085da5ce574b',1,'Enemy.defaultName()'],['../classPickup.html#ac276dc791c275a5f69eadd3e074862e8',1,'Pickup.defaultName()']]],
+  ['defaultspeed',['defaultSpeed',['../classEnemy.html#abcf91235e91c6d643c6ef6a8a1d2a657',1,'Enemy.defaultSpeed()'],['../classProjectile.html#ae73153294958247d4ccd88ba1fac609f',1,'Projectile.defaultSpeed()']]],
+  ['deltatime',['deltaTime',['../classEnemy.html#a2fb7dd0f4340441b94625e10746c59b5',1,'Enemy.deltaTime()'],['../classProjectile.html#a9c9b79f11387a75dfc664d84f07ab5dc',1,'Projectile.deltaTime()']]],
+  ['diagonal',['diagonal',['../classChunkData.html#ac7ccd4b469acdc6d7713b023deef6965',1,'ChunkData']]],
+  ['difficulty',['difficulty',['../classDifficultyManager.html#a77dbf23c87375799bf43495f3a83b4a8',1,'DifficultyManager']]],
+  ['difftext',['diffText',['../classDifficultyManager.html#ae11df5e3a1f757973627d970c39a15d7',1,'DifficultyManager']]],
+  ['dropheart',['dropHeart',['../classEnemy.html#a1b07ce03f374b3fc410d7f07353c0a95',1,'Enemy']]]
 ];

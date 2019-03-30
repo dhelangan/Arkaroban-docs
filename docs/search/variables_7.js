@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['gameoverpanel',['gameOverPanel',['../class_game_script.html#a48a99d0edaab69a168cb426ad7b514d3',1,'GameScript']]],
-  ['godmode',['godMode',['../class_player.html#a5d419dbb29c9d75e63212a9389482b24',1,'Player']]],
-  ['gravitymodifier',['gravityModifier',['../class_physics_object.html#a52e3d8a53747e3045dad8ce68a05e4a3',1,'PhysicsObject.gravityModifier()'],['../class_projectile.html#a4c7fdf01156439073f6a2b2cd3222bea',1,'Projectile.gravityModifier()']]],
-  ['green0',['green0',['../class_game_utility.html#a9fc36f1843de4f0cca4456c981310b32',1,'GameUtility']]],
-  ['grid',['grid',['../class_game_script.html#a1dd91f74a73b939d808a26ea2d6a360a',1,'GameScript']]],
-  ['grounded',['grounded',['../class_physics_object.html#abd9f1848cc49792b599c63e077898fbf',1,'PhysicsObject']]],
-  ['groundlayer',['groundLayer',['../class_game_script.html#a4c76b8711d00f0292c1158dc911acd29',1,'GameScript']]],
-  ['groundnormal',['groundNormal',['../class_physics_object.html#a1041eb7c4edd158ea04cb2b4971aea11',1,'PhysicsObject']]],
-  ['gunbulletspeed',['gunBulletSpeed',['../class_player.html#a8451ce29c47a7aaeedf370e42a23d306',1,'Player']]],
-  ['guncanrecharge',['gunCanRecharge',['../class_player.html#a7f9b6dcf3d28bc06bbc0091baf03c25c',1,'Player']]],
-  ['gundamage',['gunDamage',['../class_player.html#aba1f30e0a683060e350209c449e7e9f3',1,'Player']]],
-  ['gundistance',['gunDistance',['../class_player.html#a6276f272785c5fec942a5ff012b52552',1,'Player']]],
-  ['gunfired',['gunFired',['../class_player.html#aca4fba95410fa42b4fb941794ce39832',1,'Player']]],
-  ['gunhold',['gunHold',['../class_player.html#a25f768dae2b1e6b63673e620f6f722d9',1,'Player']]],
-  ['gunholdmax',['gunHoldMax',['../class_player.html#ad1f99278204efc47d2361527fcc06ee4',1,'Player']]],
-  ['gunlevel',['gunLevel',['../class_player.html#ada74f9e517783b49870aae5bdccb6181',1,'Player']]],
-  ['gunpower',['gunPower',['../class_player.html#acdd385abce9c60a7c1959d18425ee73f',1,'Player']]],
-  ['gunpowermax',['gunPowerMax',['../class_player.html#ae8a84b4c041307840c0639be2c6ed1e9',1,'Player']]],
-  ['gunrechargedelay',['gunRechargeDelay',['../class_player.html#ab62d91dd33ea4c7b601632ea1151d42d',1,'Player']]],
-  ['gunrechargedelaymax',['gunRechargeDelayMax',['../class_player.html#af11314517d12e12c298d74b071498f06',1,'Player']]],
-  ['gunrechargedelaystart',['gunRechargeDelayStart',['../class_player.html#a46e984029ee24f6670961f9791c3e27e',1,'Player']]],
-  ['gunrechargespeed',['gunRechargeSpeed',['../class_player.html#a620f0a967c0dd9e47b49b55a192def3e',1,'Player']]],
-  ['gunslider',['gunSlider',['../class_u_i_manager.html#aa0fd07e863b9cc750fc9e2a9a38c3c0e',1,'UIManager']]]
+  ['health',['health',['../classEnemy.html#a0c22e3b96d3c5a4d5b278188b5ba3cfb',1,'Enemy.health()'],['../classPlayer.html#ab064f330cef84e2e062fd6446db24184',1,'Player.health()']]],
+  ['healthdrop',['healthDrop',['../classGameScript.html#a1fee5606b6f41be64691e94092737aca',1,'GameScript']]],
+  ['hitbuffer',['hitBuffer',['../classPhysicsObject.html#aee6d89dc5f09924c2d9cd2d1bb857d96',1,'PhysicsObject']]],
+  ['hitbufferlist',['hitBufferList',['../classPhysicsObject.html#a290cbf37cc5d98af0bbf60df60cd0560',1,'PhysicsObject']]],
+  ['hpslider',['hpSlider',['../classUIManager.html#a0ae44c85f6026a9d0453b8a07430a1ba',1,'UIManager']]],
+  ['hpsliderfill',['hpSliderFill',['../classUIManager.html#a90abf8509d62ba29d4b3d0b2e34b85b8',1,'UIManager']]],
+  ['hptext',['hpText',['../classUIManager.html#a58f7d98da252838cb86349bb9e5c2da7',1,'UIManager']]]
 ];

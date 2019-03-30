@@ -31,7 +31,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
@@ -48,8 +48,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_cinemachine_pixel_perfect_8cs.html",
-"class_player.html#a25f768dae2b1e6b63673e620f6f722d9"
+"CinemachinePixelPerfect_8cs.html",
+"classProjectile.html#a9c9b79f11387a75dfc664d84f07ab5dc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

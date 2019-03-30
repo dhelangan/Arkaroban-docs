@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['teleporterdata',['TeleporterData',['../class_teleporter_data.html',1,'']]]
+  ['teleporterdata',['TeleporterData',['../classTeleporterData.html',1,'']]]
 ];

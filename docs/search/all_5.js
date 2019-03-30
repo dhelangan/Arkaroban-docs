@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['enemy',['Enemy',['../class_enemy.html',1,'']]],
-  ['enemy_2ecs',['Enemy.cs',['../_enemy_8cs.html',1,'']]],
-  ['enemylayer',['enemyLayer',['../class_game_script.html#a4692624553dfc4da7df70dae96435d46',1,'GameScript']]],
-  ['enemymanager',['EnemyManager',['../class_enemy_manager.html',1,'']]],
-  ['enemymanager_2ecs',['EnemyManager.cs',['../_enemy_manager_8cs.html',1,'']]],
-  ['explored',['explored',['../class_chunk_data.html#a3abedf53e27d2a94adeec59ae496fb1e',1,'ChunkData']]]
+  ['finalscore',['finalScore',['../classGameScript.html#a3ce905ae24ef8dd7bd8b8c727e483f80',1,'GameScript']]],
+  ['fixedai',['FixedAI',['../classEnemy.html#af742073c5244cdb539563f016141dbf0',1,'Enemy']]],
+  ['fixeddeltatime',['fixedDeltaTime',['../classPhysicsObject.html#aefae76c59560d3330b150a9f88da2b36',1,'PhysicsObject']]],
+  ['forcerefreshminimap',['ForceRefreshMinimap',['../classUIManager.html#a1e8711be8d21242adee909a2c835dfd7',1,'UIManager']]],
+  ['friendly',['Friendly',['../classProjectile.html#a14922be0d2cce663140ad09a403316c2',1,'Projectile']]]
 ];
