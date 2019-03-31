@@ -8,7 +8,6 @@ var searchData=
   ['chunksize',['chunkSize',['../classRoomData.html#aae617944f0673a3ee7bb8b5f0b21b135',1,'RoomData']]],
   ['chunktopleft',['chunkTopLeft',['../classRoomData.html#a510b008959e6a87dd2f45ba697dfc71a',1,'RoomData']]],
   ['cinemachinepixelperfect',['CinemachinePixelPerfect',['../classCinemachinePixelPerfect.html',1,'']]],
-  ['cinemachinepixelperfect_2ecs',['CinemachinePixelPerfect.cs',['../CinemachinePixelPerfect_8cs.html',1,'']]],
   ['color',['color',['../classStageData.html#a21a51eea0371e02c51eed8e5ad9ba3c5',1,'StageData']]],
   ['complexmult',['ComplexMult',['../classGameUtility.html#afc941cdceb525e47489341c33baa024a',1,'GameUtility']]],
   ['contactfilter',['contactFilter',['../classBaseObject.html#abb31a13a4dfb6493e9b81d45a8ab5f38',1,'BaseObject']]],

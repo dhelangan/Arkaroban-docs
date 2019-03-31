@@ -4,7 +4,5 @@ var searchData=
   ['winpanel',['winPanel',['../classGameScript.html#a037b170385c4229a1233ee76132d6f96',1,'GameScript']]],
   ['worldlocation',['worldLocation',['../classWorldTile.html#ad093cc82c1ecd68e6a5567f5942d12c5',1,'WorldTile']]],
   ['worldmanager',['WorldManager',['../classWorldManager.html',1,'']]],
-  ['worldmanager_2ecs',['WorldManager.cs',['../WorldManager_8cs.html',1,'']]],
-  ['worldtile',['WorldTile',['../classWorldTile.html',1,'']]],
-  ['worldtile_2ecs',['WorldTile.cs',['../WorldTile_8cs.html',1,'']]]
+  ['worldtile',['WorldTile',['../classWorldTile.html',1,'']]]
 ];

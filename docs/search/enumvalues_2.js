@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['left',['Left',['../GameUtility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aaa945d5e233cf7d6240f6b783b36a374ff',1,'GameUtility.cs']]]
+  ['vertical',['Vertical',['../classTeleporterData.html#a6ed8f2f08dcb14492da07bfe954b0c2ea06ce2a25e5d12c166a36f654dbea6012',1,'TeleporterData']]]
 ];

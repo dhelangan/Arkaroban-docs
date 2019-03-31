@@ -35,21 +35,14 @@ var NAVTREE =
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"BaseEnemy_8cs.html",
-"classPlayer.html#aca4fba95410fa42b4fb941794ce39832"
+"annotated.html",
+"classRoomManager.html#a65b763299acc62a3fd173bc680110d23"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

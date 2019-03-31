@@ -25,9 +25,9 @@ var dir_f0bb0f8dbe0624d79ec5f2935c9e3e46 =
       [ "EnemyManager", "classEnemyManager.html", "classEnemyManager" ]
     ] ],
     [ "GameScript.cs", "GameScript_8cs.html", [
-      [ "GameScriptData", "classGameScriptData.html", "classGameScriptData" ],
       [ "ChunkRow", "classChunkRow.html", "classChunkRow" ],
-      [ "GameScript", "classGameScript.html", "classGameScript" ]
+      [ "GameScript", "classGameScript.html", "classGameScript" ],
+      [ "GameScriptData", "classGameScriptData.html", "classGameScriptData" ]
     ] ],
     [ "GameUtility.cs", "GameUtility_8cs.html", "GameUtility_8cs" ],
     [ "MarkerData.cs", "MarkerData_8cs.html", [
@@ -49,9 +49,9 @@ var dir_f0bb0f8dbe0624d79ec5f2935c9e3e46 =
       [ "ProjectileManager", "classProjectileManager.html", "classProjectileManager" ]
     ] ],
     [ "RoomData.cs", "RoomData_8cs.html", [
-      [ "TeleporterData", "classTeleporterData.html", "classTeleporterData" ],
       [ "ReceiverData", "classReceiverData.html", "classReceiverData" ],
-      [ "RoomData", "classRoomData.html", "classRoomData" ]
+      [ "RoomData", "classRoomData.html", "classRoomData" ],
+      [ "TeleporterData", "classTeleporterData.html", "classTeleporterData" ]
     ] ],
     [ "RoomManager.cs", "RoomManager_8cs.html", [
       [ "RoomManager", "classRoomManager.html", "classRoomManager" ]

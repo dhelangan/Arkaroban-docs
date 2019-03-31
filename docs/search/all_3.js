@@ -10,14 +10,11 @@ var searchData=
   ['diagonal',['diagonal',['../classChunkData.html#ac7ccd4b469acdc6d7713b023deef6965',1,'ChunkData']]],
   ['difficulty',['difficulty',['../classDifficultyManager.html#a77dbf23c87375799bf43495f3a83b4a8',1,'DifficultyManager']]],
   ['difficultymanager',['DifficultyManager',['../classDifficultyManager.html',1,'']]],
-  ['difficultymanager_2ecs',['DifficultyManager.cs',['../DifficultyManager_8cs.html',1,'']]],
   ['difftext',['diffText',['../classDifficultyManager.html#ae11df5e3a1f757973627d970c39a15d7',1,'DifficultyManager']]],
   ['dint',['DInt',['../classChunkData.html#a45985f4f1eca77564f46d453e7c13fde',1,'ChunkData']]],
   ['direct',['Direct',['../classTeleporterData.html#a6ed8f2f08dcb14492da07bfe954b0c2eafd1dd0c603be8170f9eae0be9f2f6afb',1,'TeleporterData']]],
-  ['direction',['Direction',['../classBaseEnemy.html#ad2c3562bedc5d6c97ac637b1a7b20daf',1,'BaseEnemy.Direction()'],['../classBaseProjectile.html#af390b0127ffcf43ccaeb8c60b51a2e29',1,'BaseProjectile.Direction()'],['../GameUtility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aa',1,'Direction():&#160;GameUtility.cs']]],
+  ['direction',['Direction',['../classBaseEnemy.html#ad2c3562bedc5d6c97ac637b1a7b20daf',1,'BaseEnemy.Direction()'],['../classBaseProjectile.html#af390b0127ffcf43ccaeb8c60b51a2e29',1,'BaseProjectile.Direction()']]],
   ['directiontovector2int',['DirectionToVector2Int',['../classGameUtility.html#a749c4e43bd3771fe0628512d4204463b',1,'GameUtility']]],
   ['door',['Door',['../classDoor.html',1,'']]],
-  ['door_2ecs',['Door.cs',['../Door_8cs.html',1,'']]],
-  ['down',['Down',['../GameUtility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aaa08a38277b0309070706f6652eeae9a53',1,'GameUtility.cs']]],
   ['dropheart',['dropHeart',['../classBaseEnemy.html#a6c36305af526923639ab6998b7bd153f',1,'BaseEnemy']]]
 ];
