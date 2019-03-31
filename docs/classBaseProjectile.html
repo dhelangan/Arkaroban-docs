@@ -97,6 +97,9 @@ $(document).ready(function(){initNavTree('classBaseProjectile.html','');});
 <div class="title">BaseProjectile Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for Projectiles, has lightweight pysics calculation and use circle bounds  
+ <a href="classBaseProjectile.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for BaseProjectile:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,60 +112,84 @@ $(document).ready(function(){initNavTree('classBaseProjectile.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac147912f183350f13d1d22ec66f73229"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ac147912f183350f13d1d22ec66f73229">AI</a> ()</td></tr>
+<tr class="memdesc:ac147912f183350f13d1d22ec66f73229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run AI logic once each Update tick  <a href="#ac147912f183350f13d1d22ec66f73229">More...</a><br /></td></tr>
 <tr class="separator:ac147912f183350f13d1d22ec66f73229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac15ed2a3e03d8902811246059269bcb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ac15ed2a3e03d8902811246059269bcb9">OnHitEnemy</a> (GameObject <a class="el" href="classBaseProjectile.html#ac37cbf418c057a1f2ea264076e844385">target</a>)</td></tr>
+<tr class="memitem:ac15ed2a3e03d8902811246059269bcb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ac15ed2a3e03d8902811246059269bcb9">OnHitEnemy</a> (GameObject target)</td></tr>
+<tr class="memdesc:ac15ed2a3e03d8902811246059269bcb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run when projectile hit Enemy  <a href="#ac15ed2a3e03d8902811246059269bcb9">More...</a><br /></td></tr>
 <tr class="separator:ac15ed2a3e03d8902811246059269bcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3d58d2474bce9b1184f57e0b60171f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a5e3d58d2474bce9b1184f57e0b60171f">OnHitGround</a> (Vector2 normal)</td></tr>
+<tr class="memdesc:a5e3d58d2474bce9b1184f57e0b60171f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run when projectile hit ground tiles  <a href="#a5e3d58d2474bce9b1184f57e0b60171f">More...</a><br /></td></tr>
 <tr class="separator:a5e3d58d2474bce9b1184f57e0b60171f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a722cf4ce0234ec6f3b2b11c05789f2e0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a722cf4ce0234ec6f3b2b11c05789f2e0">OnHitPlayer</a> (<a class="el" href="classPlayer.html">Player</a> player)</td></tr>
+<tr class="memdesc:a722cf4ce0234ec6f3b2b11c05789f2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run when projectile hit player  <a href="#a722cf4ce0234ec6f3b2b11c05789f2e0">More...</a><br /></td></tr>
 <tr class="separator:a722cf4ce0234ec6f3b2b11c05789f2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a166183a57322846f2fc666e551453f54"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a166183a57322846f2fc666e551453f54">SetDefault</a> ()</td></tr>
+<tr class="memdesc:a166183a57322846f2fc666e551453f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set default properties here  <a href="#a166183a57322846f2fc666e551453f54">More...</a><br /></td></tr>
 <tr class="separator:a166183a57322846f2fc666e551453f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2a7536aa305d6c2d4634ec52e819c04b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a2a7536aa305d6c2d4634ec52e819c04b">affectedByGravity</a> = true</td></tr>
+<tr class="memitem:a2a7536aa305d6c2d4634ec52e819c04b"><td class="memItemLeft" align="right" valign="top"><a id="a2a7536aa305d6c2d4634ec52e819c04b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>affectedByGravity</b> = true</td></tr>
 <tr class="separator:a2a7536aa305d6c2d4634ec52e819c04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6f58e3fdb66f5f8216342b509441ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#abe6f58e3fdb66f5f8216342b509441ac">damage</a></td></tr>
+<tr class="memitem:abe6f58e3fdb66f5f8216342b509441ac"><td class="memItemLeft" align="right" valign="top"><a id="abe6f58e3fdb66f5f8216342b509441ac"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>damage</b></td></tr>
 <tr class="separator:abe6f58e3fdb66f5f8216342b509441ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3285445ea68a82fa1013143d6d305a7d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a3285445ea68a82fa1013143d6d305a7d">defaultSpeed</a></td></tr>
+<tr class="memitem:a3285445ea68a82fa1013143d6d305a7d"><td class="memItemLeft" align="right" valign="top"><a id="a3285445ea68a82fa1013143d6d305a7d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>defaultSpeed</b></td></tr>
 <tr class="separator:a3285445ea68a82fa1013143d6d305a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affbea5eae1c7be2a6218169a07b44cc4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#affbea5eae1c7be2a6218169a07b44cc4">gravityModifier</a> = 1f</td></tr>
+<tr class="memitem:affbea5eae1c7be2a6218169a07b44cc4"><td class="memItemLeft" align="right" valign="top"><a id="affbea5eae1c7be2a6218169a07b44cc4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>gravityModifier</b> = 1f</td></tr>
 <tr class="separator:affbea5eae1c7be2a6218169a07b44cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed5e8c1df0e177f35308fe60f0b2804e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#aed5e8c1df0e177f35308fe60f0b2804e">lifeTime</a></td></tr>
+<tr class="memitem:aed5e8c1df0e177f35308fe60f0b2804e"><td class="memItemLeft" align="right" valign="top"><a id="aed5e8c1df0e177f35308fe60f0b2804e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>lifeTime</b></td></tr>
 <tr class="separator:aed5e8c1df0e177f35308fe60f0b2804e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ec7a8dda1baa439e65d91e67d9ef59c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a2ec7a8dda1baa439e65d91e67d9ef59c">size</a></td></tr>
+<tr class="memitem:a2ec7a8dda1baa439e65d91e67d9ef59c"><td class="memItemLeft" align="right" valign="top"><a id="a2ec7a8dda1baa439e65d91e67d9ef59c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>size</b></td></tr>
 <tr class="separator:a2ec7a8dda1baa439e65d91e67d9ef59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afebf06f1bc18bc715359cce2347212d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#afebf06f1bc18bc715359cce2347212d5">sourceXFlip</a> = false</td></tr>
+<tr class="memitem:afebf06f1bc18bc715359cce2347212d5"><td class="memItemLeft" align="right" valign="top"><a id="afebf06f1bc18bc715359cce2347212d5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>sourceXFlip</b> = false</td></tr>
 <tr class="separator:afebf06f1bc18bc715359cce2347212d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba3a48b05b84ba9fece6c98d9d6d3d96"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#aba3a48b05b84ba9fece6c98d9d6d3d96">spawnerPos</a></td></tr>
+<tr class="memitem:aba3a48b05b84ba9fece6c98d9d6d3d96"><td class="memItemLeft" align="right" valign="top"><a id="aba3a48b05b84ba9fece6c98d9d6d3d96"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>spawnerPos</b></td></tr>
 <tr class="separator:aba3a48b05b84ba9fece6c98d9d6d3d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53eafead58fb474c7a28f0844ceae048"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a53eafead58fb474c7a28f0844ceae048">stayAlive</a> = false</td></tr>
+<tr class="memitem:a53eafead58fb474c7a28f0844ceae048"><td class="memItemLeft" align="right" valign="top"><a id="a53eafead58fb474c7a28f0844ceae048"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>stayAlive</b> = false</td></tr>
 <tr class="separator:a53eafead58fb474c7a28f0844ceae048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac37cbf418c057a1f2ea264076e844385"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ac37cbf418c057a1f2ea264076e844385">target</a></td></tr>
+<tr class="memitem:ac37cbf418c057a1f2ea264076e844385"><td class="memItemLeft" align="right" valign="top"><a id="ac37cbf418c057a1f2ea264076e844385"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>target</b></td></tr>
 <tr class="separator:ac37cbf418c057a1f2ea264076e844385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9da977c31e3975813fccd790a96311c"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ae9da977c31e3975813fccd790a96311c">velocity</a></td></tr>
+<tr class="memitem:ae9da977c31e3975813fccd790a96311c"><td class="memItemLeft" align="right" valign="top"><a id="ae9da977c31e3975813fccd790a96311c"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></tr>
 <tr class="separator:ae9da977c31e3975813fccd790a96311c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a36b1062bc842216c2d28b3e13d43ca7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a36b1062bc842216c2d28b3e13d43ca7c">deltaTime</a></td></tr>
+<tr class="memitem:a36b1062bc842216c2d28b3e13d43ca7c"><td class="memItemLeft" align="right" valign="top"><a id="a36b1062bc842216c2d28b3e13d43ca7c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>deltaTime</b></td></tr>
 <tr class="separator:a36b1062bc842216c2d28b3e13d43ca7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9fa60f8d15e621ab9fff0498cd828cb"><td class="memItemLeft" align="right" valign="top">SpriteRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#af9fa60f8d15e621ab9fff0498cd828cb">spriteRenderer</a></td></tr>
+<tr class="memitem:af9fa60f8d15e621ab9fff0498cd828cb"><td class="memItemLeft" align="right" valign="top"><a id="af9fa60f8d15e621ab9fff0498cd828cb"></a>
+SpriteRenderer&#160;</td><td class="memItemRight" valign="bottom"><b>spriteRenderer</b></td></tr>
 <tr class="separator:af9fa60f8d15e621ab9fff0498cd828cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af390b0127ffcf43ccaeb8c60b51a2e29"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#af390b0127ffcf43ccaeb8c60b51a2e29">Direction</a><code> [get, set]</code></td></tr>
+<tr class="memitem:af390b0127ffcf43ccaeb8c60b51a2e29"><td class="memItemLeft" align="right" valign="top"><a id="af390b0127ffcf43ccaeb8c60b51a2e29"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>Direction</b><code> [get, set]</code></td></tr>
 <tr class="separator:af390b0127ffcf43ccaeb8c60b51a2e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f08c4db28a2dce12543d6b8d234948b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a4f08c4db28a2dce12543d6b8d234948b">Friendly</a><code> [get, set]</code></td></tr>
+<tr class="memitem:a4f08c4db28a2dce12543d6b8d234948b"><td class="memItemLeft" align="right" valign="top"><a id="a4f08c4db28a2dce12543d6b8d234948b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Friendly</b><code> [get, set]</code></td></tr>
 <tr class="separator:a4f08c4db28a2dce12543d6b8d234948b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d27d03b0404125b8892f5ca15546c1"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#ad3d27d03b0404125b8892f5ca15546c1">Source</a><code> [get, set]</code></td></tr>
+<tr class="memitem:ad3d27d03b0404125b8892f5ca15546c1"><td class="memItemLeft" align="right" valign="top"><a id="ad3d27d03b0404125b8892f5ca15546c1"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>Source</b><code> [get, set]</code></td></tr>
 <tr class="separator:ad3d27d03b0404125b8892f5ca15546c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a57d223e5a856639364d957596a7ef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseProjectile.html#a86a57d223e5a856639364d957596a7ef">Speed</a><code> [get, set]</code></td></tr>
+<tr class="memitem:a86a57d223e5a856639364d957596a7ef"><td class="memItemLeft" align="right" valign="top"><a id="a86a57d223e5a856639364d957596a7ef"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>Speed</b><code> [get, set]</code></td></tr>
 <tr class="separator:a86a57d223e5a856639364d957596a7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for Projectiles, has lightweight pysics calculation and use circle bounds </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac147912f183350f13d1d22ec66f73229"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac147912f183350f13d1d22ec66f73229">&#9670;&nbsp;</a></span>AI()</h2>
 
@@ -185,6 +212,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Run AI logic once each Update tick </p>
 
 </div>
 </div>
@@ -212,6 +241,14 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Run when projectile hit Enemy </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Target</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a5e3d58d2474bce9b1184f57e0b60171f"></a>
@@ -237,6 +274,14 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Run when projectile hit ground tiles </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">normal</td><td>Normal vector of collision</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -264,6 +309,14 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Run when projectile hit player </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The player</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a166183a57322846f2fc666e551453f54"></a>
@@ -289,293 +342,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2a7536aa305d6c2d4634ec52e819c04b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a7536aa305d6c2d4634ec52e819c04b">&#9670;&nbsp;</a></span>affectedByGravity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BaseProjectile.affectedByGravity = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abe6f58e3fdb66f5f8216342b509441ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe6f58e3fdb66f5f8216342b509441ac">&#9670;&nbsp;</a></span>damage</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int BaseProjectile.damage</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3285445ea68a82fa1013143d6d305a7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3285445ea68a82fa1013143d6d305a7d">&#9670;&nbsp;</a></span>defaultSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.defaultSpeed</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36b1062bc842216c2d28b3e13d43ca7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36b1062bc842216c2d28b3e13d43ca7c">&#9670;&nbsp;</a></span>deltaTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.deltaTime</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="affbea5eae1c7be2a6218169a07b44cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affbea5eae1c7be2a6218169a07b44cc4">&#9670;&nbsp;</a></span>gravityModifier</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.gravityModifier = 1f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aed5e8c1df0e177f35308fe60f0b2804e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed5e8c1df0e177f35308fe60f0b2804e">&#9670;&nbsp;</a></span>lifeTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.lifeTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ec7a8dda1baa439e65d91e67d9ef59c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ec7a8dda1baa439e65d91e67d9ef59c">&#9670;&nbsp;</a></span>size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.size</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afebf06f1bc18bc715359cce2347212d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebf06f1bc18bc715359cce2347212d5">&#9670;&nbsp;</a></span>sourceXFlip</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BaseProjectile.sourceXFlip = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba3a48b05b84ba9fece6c98d9d6d3d96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba3a48b05b84ba9fece6c98d9d6d3d96">&#9670;&nbsp;</a></span>spawnerPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 BaseProjectile.spawnerPos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af9fa60f8d15e621ab9fff0498cd828cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9fa60f8d15e621ab9fff0498cd828cb">&#9670;&nbsp;</a></span>spriteRenderer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">SpriteRenderer BaseProjectile.spriteRenderer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53eafead58fb474c7a28f0844ceae048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53eafead58fb474c7a28f0844ceae048">&#9670;&nbsp;</a></span>stayAlive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BaseProjectile.stayAlive = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac37cbf418c057a1f2ea264076e844385"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac37cbf418c057a1f2ea264076e844385">&#9670;&nbsp;</a></span>target</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">LayerMask BaseProjectile.target</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9da977c31e3975813fccd790a96311c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9da977c31e3975813fccd790a96311c">&#9670;&nbsp;</a></span>velocity</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 BaseProjectile.velocity</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="af390b0127ffcf43ccaeb8c60b51a2e29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af390b0127ffcf43ccaeb8c60b51a2e29">&#9670;&nbsp;</a></span>Direction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector2 BaseProjectile.Direction</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4f08c4db28a2dce12543d6b8d234948b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f08c4db28a2dce12543d6b8d234948b">&#9670;&nbsp;</a></span>Friendly</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BaseProjectile.Friendly</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3d27d03b0404125b8892f5ca15546c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3d27d03b0404125b8892f5ca15546c1">&#9670;&nbsp;</a></span>Source</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GameObject BaseProjectile.Source</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86a57d223e5a856639364d957596a7ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a57d223e5a856639364d957596a7ef">&#9670;&nbsp;</a></span>Speed</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BaseProjectile.Speed</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Set default properties here </p>
 
 </div>
 </div>
@@ -585,7 +352,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classBaseProjectile.html">BaseProjectile</a></li>
-    <li class="footer">Generated on Sun Mar 31 2019 12:14:39 for Arkaroban by
+    <li class="footer">Generated on Sun Mar 31 2019 21:55:33 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

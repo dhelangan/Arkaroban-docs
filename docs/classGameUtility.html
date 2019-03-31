@@ -95,6 +95,9 @@ $(document).ready(function(){initNavTree('classGameUtility.html','');});
 <div class="title">GameUtility Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Contains many helper methods  
+ <a href="classGameUtility.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -108,8 +111,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aff3fa56723974d4d165ca41a4d47347b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the velocity needed for moving from startPos to endPos in time seconds  <a href="#aff3fa56723974d4d165ca41a4d47347b">More...</a><br /></td></tr>
 <tr class="separator:aff3fa56723974d4d165ca41a4d47347b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc941cdceb525e47489341c33baa024a"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#afc941cdceb525e47489341c33baa024a">ComplexMult</a> (this Vector2 aVec, Vector2 aOther)</td></tr>
+<tr class="memdesc:afc941cdceb525e47489341c33baa024a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do complex multiplication  <a href="#afc941cdceb525e47489341c33baa024a">More...</a><br /></td></tr>
 <tr class="separator:afc941cdceb525e47489341c33baa024a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749c4e43bd3771fe0628512d4204463b"><td class="memItemLeft" align="right" valign="top">static Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a749c4e43bd3771fe0628512d4204463b">DirectionToVector2Int</a> (Direction direction)</td></tr>
+<tr class="memdesc:a749c4e43bd3771fe0628512d4204463b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Direction to vector direction in Chunk coordinate system  <a href="#a749c4e43bd3771fe0628512d4204463b">More...</a><br /></td></tr>
 <tr class="separator:a749c4e43bd3771fe0628512d4204463b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03651ed78adbb7b1037d2523b0d74c24"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a03651ed78adbb7b1037d2523b0d74c24">Geq</a> (float a, float b)</td></tr>
 <tr class="memdesc:a03651ed78adbb7b1037d2523b0d74c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if A greater equal than B  <a href="#a03651ed78adbb7b1037d2523b0d74c24">More...</a><br /></td></tr>
@@ -133,6 +138,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5b795ca0cb93727cd3cf171c1058cb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate aPoint by aDegree clockwise using Quaternion  <a href="#a5b795ca0cb93727cd3cf171c1058cb85">More...</a><br /></td></tr>
 <tr class="separator:a5b795ca0cb93727cd3cf171c1058cb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af09be7062f113a34a5861a7f06a0a460"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#af09be7062f113a34a5861a7f06a0a460">Rotation</a> (float aDegree)</td></tr>
+<tr class="memdesc:af09be7062f113a34a5861a7f06a0a460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert angle to Complex number  <a href="#af09be7062f113a34a5861a7f06a0a460">More...</a><br /></td></tr>
 <tr class="separator:af09be7062f113a34a5861a7f06a0a460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810f8cb789d61a8a6d8ebe76065341e2"><td class="memItemLeft" align="right" valign="top">static Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a810f8cb789d61a8a6d8ebe76065341e2">TilePosToLocalChunkPos</a> (int tileX, int tileY, Vector2Int topLeftChunk, Vector2Int chunkSize)</td></tr>
 <tr class="memdesc:a810f8cb789d61a8a6d8ebe76065341e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tile grid position to local chunk position (-y,x)  <a href="#a810f8cb789d61a8a6d8ebe76065341e2">More...</a><br /></td></tr>
@@ -140,20 +146,28 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af509cacaf69bf5ba63e121c05fd72261"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#af509cacaf69bf5ba63e121c05fd72261">blue0</a> = new Color(0, 0, 1, 0)</td></tr>
+<tr class="memitem:af509cacaf69bf5ba63e121c05fd72261"><td class="memItemLeft" align="right" valign="top"><a id="af509cacaf69bf5ba63e121c05fd72261"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>blue0</b> = new Color(0, 0, 1, 0)</td></tr>
 <tr class="separator:af509cacaf69bf5ba63e121c05fd72261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf26bbde9ae11a19011456af4291b5bd"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#acf26bbde9ae11a19011456af4291b5bd">blue6</a> = new Color(0, 0, 1, .6f)</td></tr>
+<tr class="memitem:acf26bbde9ae11a19011456af4291b5bd"><td class="memItemLeft" align="right" valign="top"><a id="acf26bbde9ae11a19011456af4291b5bd"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>blue6</b> = new Color(0, 0, 1, .6f)</td></tr>
 <tr class="separator:acf26bbde9ae11a19011456af4291b5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bf95ebd802db2f77eaf3c9cc0ccc0e0"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a6bf95ebd802db2f77eaf3c9cc0ccc0e0">cyan0</a> = new Color(0, 1, 1, 0)</td></tr>
+<tr class="memitem:a6bf95ebd802db2f77eaf3c9cc0ccc0e0"><td class="memItemLeft" align="right" valign="top"><a id="a6bf95ebd802db2f77eaf3c9cc0ccc0e0"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>cyan0</b> = new Color(0, 1, 1, 0)</td></tr>
 <tr class="separator:a6bf95ebd802db2f77eaf3c9cc0ccc0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a753766f1197582e268c1af64c53d7cef"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a753766f1197582e268c1af64c53d7cef">cyan6</a> = new Color(0, 1, 1, .6f)</td></tr>
+<tr class="memitem:a753766f1197582e268c1af64c53d7cef"><td class="memItemLeft" align="right" valign="top"><a id="a753766f1197582e268c1af64c53d7cef"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>cyan6</b> = new Color(0, 1, 1, .6f)</td></tr>
 <tr class="separator:a753766f1197582e268c1af64c53d7cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc36f1843de4f0cca4456c981310b32"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a9fc36f1843de4f0cca4456c981310b32">green0</a> = new Color(0, 1, 0, 0)</td></tr>
+<tr class="memitem:a9fc36f1843de4f0cca4456c981310b32"><td class="memItemLeft" align="right" valign="top"><a id="a9fc36f1843de4f0cca4456c981310b32"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>green0</b> = new Color(0, 1, 0, 0)</td></tr>
 <tr class="separator:a9fc36f1843de4f0cca4456c981310b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a693aa19b8ff08d5ed52c5c12ade3cfcd"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a693aa19b8ff08d5ed52c5c12ade3cfcd">purple0</a> = new Color(1, 0, 1, 0)</td></tr>
+<tr class="memitem:a693aa19b8ff08d5ed52c5c12ade3cfcd"><td class="memItemLeft" align="right" valign="top"><a id="a693aa19b8ff08d5ed52c5c12ade3cfcd"></a>
+static Color&#160;</td><td class="memItemRight" valign="bottom"><b>purple0</b> = new Color(1, 0, 1, 0)</td></tr>
 <tr class="separator:a693aa19b8ff08d5ed52c5c12ade3cfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Contains many helper methods </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a622317eda1bd24033e348824915a34cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a622317eda1bd24033e348824915a34cb">&#9670;&nbsp;</a></span>BetweenInt()</h2>
 
@@ -193,6 +207,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if number between range (inclusive) </p>
 
 </div>
 </div>
@@ -236,6 +252,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Check if point between square (inclusive) </p>
+
 </div>
 </div>
 <a id="aff3fa56723974d4d165ca41a4d47347b"></a>
@@ -278,6 +296,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Calculate the velocity needed for moving from startPos to endPos in time seconds </p>
+
 </div>
 </div>
 <a id="afc941cdceb525e47489341c33baa024a"></a>
@@ -314,6 +334,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Do complex multiplication </p>
+
 </div>
 </div>
 <a id="a749c4e43bd3771fe0628512d4204463b"></a>
@@ -339,6 +361,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert Direction to vector direction in Chunk coordinate system </p>
 
 </div>
 </div>
@@ -375,6 +399,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if A greater equal than B </p>
 
 </div>
 </div>
@@ -418,6 +444,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Lerp color from A to B with T as progress (0-1) </p>
+
 </div>
 </div>
 <a id="a35c9e5cc043f8b0809d7211e345899a4"></a>
@@ -454,6 +482,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Check if A less equal than B </p>
+
 </div>
 </div>
 <a id="a84fd9ec43d4dd32b6f892c81824cec71"></a>
@@ -479,6 +509,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if the float less equal than zero </p>
 
 </div>
 </div>
@@ -516,6 +548,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Rotate aVec by aDegree counter clockwise </p>
+
 </div>
 </div>
 <a id="a4a3013e455a49e5d16f2150d82b41028"></a>
@@ -551,6 +585,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Rotate aVec by aDegree clockwise </p>
 
 </div>
 </div>
@@ -588,6 +624,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Rotate aPoint by aDegree clockwise using Quaternion </p>
+
 </div>
 </div>
 <a id="af09be7062f113a34a5861a7f06a0a460"></a>
@@ -613,6 +651,15 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert angle to Complex number </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aDegree</td><td>Angle in degree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -661,6 +708,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Convert tile grid position to local chunk position (-y,x) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tileX</td><td>tile x position</td></tr>
@@ -673,146 +722,13 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af509cacaf69bf5ba63e121c05fd72261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af509cacaf69bf5ba63e121c05fd72261">&#9670;&nbsp;</a></span>blue0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.blue0 = new Color(0, 0, 1, 0)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acf26bbde9ae11a19011456af4291b5bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf26bbde9ae11a19011456af4291b5bd">&#9670;&nbsp;</a></span>blue6</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.blue6 = new Color(0, 0, 1, .6f)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6bf95ebd802db2f77eaf3c9cc0ccc0e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bf95ebd802db2f77eaf3c9cc0ccc0e0">&#9670;&nbsp;</a></span>cyan0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.cyan0 = new Color(0, 1, 1, 0)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a753766f1197582e268c1af64c53d7cef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a753766f1197582e268c1af64c53d7cef">&#9670;&nbsp;</a></span>cyan6</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.cyan6 = new Color(0, 1, 1, .6f)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9fc36f1843de4f0cca4456c981310b32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc36f1843de4f0cca4456c981310b32">&#9670;&nbsp;</a></span>green0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.green0 = new Color(0, 1, 0, 0)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a693aa19b8ff08d5ed52c5c12ade3cfcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a693aa19b8ff08d5ed52c5c12ade3cfcd">&#9670;&nbsp;</a></span>purple0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color GameUtility.purple0 = new Color(1, 0, 1, 0)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classGameUtility.html">GameUtility</a></li>
-    <li class="footer">Generated on Sun Mar 31 2019 12:14:40 for Arkaroban by
+    <li class="footer">Generated on Sun Mar 31 2019 21:55:34 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

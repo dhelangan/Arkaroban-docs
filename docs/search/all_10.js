@@ -1,23 +1,5 @@
 var searchData=
 [
-  ['rb2d',['rb2d',['../classBaseObject.html#a259d161ac545e5ca5b068c5911fe78ee',1,'BaseObject']]],
-  ['recalculatedata',['RecalculateData',['../classRoomData.html#a5b15d8c7c1f68e9e328164734bac79b5',1,'RoomData']]],
-  ['receiverdata',['ReceiverData',['../classReceiverData.html',1,'']]],
-  ['receivers',['receivers',['../classRoomData.html#a0547b55d55e797a25fa654e0ad71c6cd',1,'RoomData']]],
-  ['refreshminimap',['RefreshMinimap',['../classUIManager.html#a8e4361129188eea07f42065a341eedd5',1,'UIManager']]],
-  ['revealchunk',['RevealChunk',['../classWorldManager.html#a0c270e906e47d7f5d4c2eb646a4914e2',1,'WorldManager']]],
-  ['room',['Room',['../classRoomData.html#ae1c52984c43c4e2309ae66a94fa5ac45',1,'RoomData.Room()'],['../classGameScript.html#a008e3edabbf1fd569c2e53c0f31f70ca',1,'GameScript.room()']]],
-  ['roomcolor',['roomColor',['../classChunkData.html#a118312c3a028ddd075641efcbf1f5122',1,'ChunkData']]],
-  ['roomdata',['RoomData',['../classRoomData.html',1,'']]],
-  ['roomid',['roomId',['../classRoomManager.html#abbea6f60854232bd8a96183dd0a039b8',1,'RoomManager']]],
-  ['roommanager',['RoomManager',['../classRoomManager.html',1,'']]],
-  ['roomname',['roomName',['../classChunkData.html#aea560fe9b82858a97d3cdc431b138e25',1,'ChunkData']]],
-  ['roompos',['roomPos',['../classWorldManager.html#a1a51586077f0741a18c0b4e17d6d45ad',1,'WorldManager']]],
-  ['rooms',['rooms',['../classRoomManager.html#a4b23a1590017f5adddc4b69e84a5eb64',1,'RoomManager']]],
-  ['roomtarget',['roomTarget',['../classWorldTile.html#a6eaa66dda623ac7e73af7224f403f0ee',1,'WorldTile']]],
-  ['rotateccw',['RotateCCW',['../classGameUtility.html#a20df7915a92ab37bfaf97b0c97d8cf75',1,'GameUtility']]],
-  ['rotatecw',['RotateCW',['../classGameUtility.html#a4a3013e455a49e5d16f2150d82b41028',1,'GameUtility']]],
-  ['rotatequat',['RotateQuat',['../classGameUtility.html#a5b795ca0cb93727cd3cf171c1058cb85',1,'GameUtility']]],
-  ['rotation',['Rotation',['../classGameUtility.html#af09be7062f113a34a5861a7f06a0a460',1,'GameUtility']]],
-  ['rowdata',['rowData',['../classChunkRow.html#ad3f39b7ac999acdef857faadac87f66b',1,'ChunkRow']]]
+  ['worldmanager',['WorldManager',['../classWorldManager.html',1,'']]],
+  ['worldtile',['WorldTile',['../classWorldTile.html',1,'']]]
 ];

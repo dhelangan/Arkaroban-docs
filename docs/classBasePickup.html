@@ -97,6 +97,9 @@ $(document).ready(function(){initNavTree('classBasePickup.html','');});
 <div class="title">BasePickup Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for pickups  
+ <a href="classBasePickup.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for BasePickup:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -105,72 +108,97 @@ $(document).ready(function(){initNavTree('classBasePickup.html','');});
  <div class="center">
   <img src="classBasePickup.png" usemap="#BasePickup_map" alt=""/>
   <map id="BasePickup_map" name="BasePickup_map">
-<area href="classBaseObject.html" alt="BaseObject" shape="rect" coords="0,56,102,80"/>
+<area href="classBaseObject.html" title="Base class of nearly all physiscal objects" alt="BaseObject" shape="rect" coords="0,56,102,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aedb4e503fb04278f8d2943b7c56e3f0f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#aedb4e503fb04278f8d2943b7c56e3f0f">OnHitPlayer</a> (<a class="el" href="classPlayer.html">Player</a> player)</td></tr>
+<tr class="memdesc:aedb4e503fb04278f8d2943b7c56e3f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run when player get the item  <a href="#aedb4e503fb04278f8d2943b7c56e3f0f">More...</a><br /></td></tr>
 <tr class="separator:aedb4e503fb04278f8d2943b7c56e3f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f8447c5d6387725a2df82013404bfb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a84f8447c5d6387725a2df82013404bfb">SetDefault</a> ()</td></tr>
+<tr class="memdesc:a84f8447c5d6387725a2df82013404bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set default properties here  <a href="#a84f8447c5d6387725a2df82013404bfb">More...</a><br /></td></tr>
 <tr class="separator:a84f8447c5d6387725a2df82013404bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a35e28952e5086af88ab1971e8258d220"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a35e28952e5086af88ab1971e8258d220">defaultName</a> = &quot;&quot;</td></tr>
+<tr class="memitem:a35e28952e5086af88ab1971e8258d220"><td class="memItemLeft" align="right" valign="top"><a id="a35e28952e5086af88ab1971e8258d220"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>defaultName</b> = &quot;&quot;</td></tr>
 <tr class="separator:a35e28952e5086af88ab1971e8258d220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
-<tr class="memitem:a87b8c0e42fa70c68b42eb67806b04b2b inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a87b8c0e42fa70c68b42eb67806b04b2b">affectedByGravity</a> = true</td></tr>
+<tr class="memitem:a87b8c0e42fa70c68b42eb67806b04b2b inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a87b8c0e42fa70c68b42eb67806b04b2b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>affectedByGravity</b> = true</td></tr>
 <tr class="separator:a87b8c0e42fa70c68b42eb67806b04b2b inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6541560a624442f86c8885b92334599e inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a6541560a624442f86c8885b92334599e">currentNormal</a></td></tr>
+<tr class="memitem:a6541560a624442f86c8885b92334599e inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a6541560a624442f86c8885b92334599e"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>currentNormal</b></td></tr>
 <tr class="separator:a6541560a624442f86c8885b92334599e inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d46f0272407b41997ea74feeb00bc29 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a7d46f0272407b41997ea74feeb00bc29">gravityModifier</a> = 1f</td></tr>
+<tr class="memitem:a7d46f0272407b41997ea74feeb00bc29 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a7d46f0272407b41997ea74feeb00bc29"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>gravityModifier</b> = 1f</td></tr>
 <tr class="separator:a7d46f0272407b41997ea74feeb00bc29 inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe328b3a6e412da601bb02e4586d4764 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#abe328b3a6e412da601bb02e4586d4764">mask</a></td></tr>
+<tr class="memitem:abe328b3a6e412da601bb02e4586d4764 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="abe328b3a6e412da601bb02e4586d4764"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>mask</b></td></tr>
 <tr class="separator:abe328b3a6e412da601bb02e4586d4764 inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5749a29714c3e0585501359c8cadd3ca inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a5749a29714c3e0585501359c8cadd3ca">minGroundNormalY</a> = .65f</td></tr>
+<tr class="memitem:a5749a29714c3e0585501359c8cadd3ca inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a5749a29714c3e0585501359c8cadd3ca"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>minGroundNormalY</b> = .65f</td></tr>
 <tr class="separator:a5749a29714c3e0585501359c8cadd3ca inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae234ce5479b35d91148a813f0b7de3d8 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#ae234ce5479b35d91148a813f0b7de3d8">velocity</a> = Vector2.zero</td></tr>
+<tr class="memitem:ae234ce5479b35d91148a813f0b7de3d8 inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="ae234ce5479b35d91148a813f0b7de3d8"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b> = Vector2.zero</td></tr>
 <tr class="separator:ae234ce5479b35d91148a813f0b7de3d8 inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a12e157ac3a0ca873e9b27f8577cef0ba"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a12e157ac3a0ca873e9b27f8577cef0ba">POFixedUpdate</a> ()</td></tr>
+<tr class="memitem:a12e157ac3a0ca873e9b27f8577cef0ba"><td class="memItemLeft" align="right" valign="top"><a id="a12e157ac3a0ca873e9b27f8577cef0ba"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>POFixedUpdate</b> ()</td></tr>
 <tr class="separator:a12e157ac3a0ca873e9b27f8577cef0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19825627b10adb1114b2672f424927b3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a19825627b10adb1114b2672f424927b3">POStart</a> ()</td></tr>
+<tr class="memitem:a19825627b10adb1114b2672f424927b3"><td class="memItemLeft" align="right" valign="top"><a id="a19825627b10adb1114b2672f424927b3"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>POStart</b> ()</td></tr>
 <tr class="separator:a19825627b10adb1114b2672f424927b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
 <tr class="memitem:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a5114f3ddaba01c43a94768f144d07fa0">POOnEnable</a> ()</td></tr>
+<tr class="memdesc:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run in OnEnable  <a href="classBaseObject.html#a5114f3ddaba01c43a94768f144d07fa0">More...</a><br /></td></tr>
 <tr class="separator:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a628bb5d9163ece22f6cf890b97047ed9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a628bb5d9163ece22f6cf890b97047ed9">oneTimeOnly</a> = false</td></tr>
+<tr class="memitem:a628bb5d9163ece22f6cf890b97047ed9"><td class="memItemLeft" align="right" valign="top"><a id="a628bb5d9163ece22f6cf890b97047ed9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>oneTimeOnly</b> = false</td></tr>
 <tr class="separator:a628bb5d9163ece22f6cf890b97047ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c429b1182294315747944758ee0ac8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBasePickup.html#a9c429b1182294315747944758ee0ac8a">showOnMap</a> = false</td></tr>
+<tr class="memitem:a9c429b1182294315747944758ee0ac8a"><td class="memItemLeft" align="right" valign="top"><a id="a9c429b1182294315747944758ee0ac8a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>showOnMap</b> = false</td></tr>
 <tr class="separator:a9c429b1182294315747944758ee0ac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
-<tr class="memitem:abb31a13a4dfb6493e9b81d45a8ab5f38 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">ContactFilter2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#abb31a13a4dfb6493e9b81d45a8ab5f38">contactFilter</a></td></tr>
+<tr class="memitem:abb31a13a4dfb6493e9b81d45a8ab5f38 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="abb31a13a4dfb6493e9b81d45a8ab5f38"></a>
+ContactFilter2D&#160;</td><td class="memItemRight" valign="bottom"><b>contactFilter</b></td></tr>
 <tr class="separator:abb31a13a4dfb6493e9b81d45a8ab5f38 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b2b94a6f3c17a4e2f35d210c9075e3 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#af2b2b94a6f3c17a4e2f35d210c9075e3">fixedDeltaTime</a></td></tr>
+<tr class="memitem:af2b2b94a6f3c17a4e2f35d210c9075e3 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="af2b2b94a6f3c17a4e2f35d210c9075e3"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>fixedDeltaTime</b></td></tr>
 <tr class="separator:af2b2b94a6f3c17a4e2f35d210c9075e3 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b8c619ebfe84b964bce7729ab2ddc28 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a4b8c619ebfe84b964bce7729ab2ddc28">grounded</a></td></tr>
+<tr class="memitem:a4b8c619ebfe84b964bce7729ab2ddc28 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a4b8c619ebfe84b964bce7729ab2ddc28"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>grounded</b></td></tr>
 <tr class="separator:a4b8c619ebfe84b964bce7729ab2ddc28 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f2f4bc91f9aba22cc7481f29e220487 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a5f2f4bc91f9aba22cc7481f29e220487">groundNormal</a> = Vector2.up</td></tr>
+<tr class="memitem:a5f2f4bc91f9aba22cc7481f29e220487 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a5f2f4bc91f9aba22cc7481f29e220487"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>groundNormal</b> = Vector2.up</td></tr>
 <tr class="separator:a5f2f4bc91f9aba22cc7481f29e220487 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a123a0478c7e997a5fb24645e1f14e076 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">RaycastHit2D []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a123a0478c7e997a5fb24645e1f14e076">hitBuffer</a> = new RaycastHit2D[16]</td></tr>
+<tr class="memitem:a123a0478c7e997a5fb24645e1f14e076 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a123a0478c7e997a5fb24645e1f14e076"></a>
+RaycastHit2D []&#160;</td><td class="memItemRight" valign="bottom"><b>hitBuffer</b> = new RaycastHit2D[16]</td></tr>
 <tr class="separator:a123a0478c7e997a5fb24645e1f14e076 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57e8adef22776665bb20578fcf6b65fd inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">List&lt; RaycastHit2D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a57e8adef22776665bb20578fcf6b65fd">hitBufferList</a> = new List&lt;RaycastHit2D&gt;(16)</td></tr>
+<tr class="memitem:a57e8adef22776665bb20578fcf6b65fd inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a57e8adef22776665bb20578fcf6b65fd"></a>
+List&lt; RaycastHit2D &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hitBufferList</b> = new List&lt;RaycastHit2D&gt;(16)</td></tr>
 <tr class="separator:a57e8adef22776665bb20578fcf6b65fd inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cce31bb6813797848e4e70cd4b91256 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a5cce31bb6813797848e4e70cd4b91256">minMoveDist</a> = 0.001f</td></tr>
+<tr class="memitem:a5cce31bb6813797848e4e70cd4b91256 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a5cce31bb6813797848e4e70cd4b91256"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>minMoveDist</b> = 0.001f</td></tr>
 <tr class="separator:a5cce31bb6813797848e4e70cd4b91256 inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a259d161ac545e5ca5b068c5911fe78ee inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a259d161ac545e5ca5b068c5911fe78ee">rb2d</a></td></tr>
+<tr class="memitem:a259d161ac545e5ca5b068c5911fe78ee inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a259d161ac545e5ca5b068c5911fe78ee"></a>
+Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><b>rb2d</b></td></tr>
 <tr class="separator:a259d161ac545e5ca5b068c5911fe78ee inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a781d38f7f8cc820f6b6ecba94af4705b inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a781d38f7f8cc820f6b6ecba94af4705b">shellRadius</a> = 0.01f</td></tr>
+<tr class="memitem:a781d38f7f8cc820f6b6ecba94af4705b inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a781d38f7f8cc820f6b6ecba94af4705b"></a>
+const float&#160;</td><td class="memItemRight" valign="bottom"><b>shellRadius</b> = 0.01f</td></tr>
 <tr class="separator:a781d38f7f8cc820f6b6ecba94af4705b inherit pro_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for pickups </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aedb4e503fb04278f8d2943b7c56e3f0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedb4e503fb04278f8d2943b7c56e3f0f">&#9670;&nbsp;</a></span>OnHitPlayer()</h2>
 
@@ -195,59 +223,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a12e157ac3a0ca873e9b27f8577cef0ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12e157ac3a0ca873e9b27f8577cef0ba">&#9670;&nbsp;</a></span>POFixedUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void BasePickup.POFixedUpdate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classBaseObject.html#a93cb86c5092403db40c43d5f38caa448">BaseObject</a>.</p>
-
-</div>
-</div>
-<a id="a19825627b10adb1114b2672f424927b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19825627b10adb1114b2672f424927b3">&#9670;&nbsp;</a></span>POStart()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void BasePickup.POStart </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classBaseObject.html#a6aa31aa29ebc71828acac26c9d338d16">BaseObject</a>.</p>
+<p>Run when player get the item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">player</td><td>The player</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -274,64 +256,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a35e28952e5086af88ab1971e8258d220"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35e28952e5086af88ab1971e8258d220">&#9670;&nbsp;</a></span>defaultName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string BasePickup.defaultName = &quot;&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a628bb5d9163ece22f6cf890b97047ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a628bb5d9163ece22f6cf890b97047ed9">&#9670;&nbsp;</a></span>oneTimeOnly</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BasePickup.oneTimeOnly = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c429b1182294315747944758ee0ac8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c429b1182294315747944758ee0ac8a">&#9670;&nbsp;</a></span>showOnMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BasePickup.showOnMap = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Set default properties here </p>
 
 </div>
 </div>
@@ -341,7 +266,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classBasePickup.html">BasePickup</a></li>
-    <li class="footer">Generated on Sun Mar 31 2019 12:14:39 for Arkaroban by
+    <li class="footer">Generated on Sun Mar 31 2019 21:55:33 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

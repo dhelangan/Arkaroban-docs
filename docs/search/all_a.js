@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['knockback',['Knockback',['../classPlayer.html#a1fd5c8cc69ecd6c5d9d4b8956b8e2534',1,'Player']]],
-  ['knockbackdirection',['knockBackDirection',['../classPlayer.html#a504b4bf6fbaa835eeb18dc1e86cb6504',1,'Player']]],
-  ['knockbackresistance',['knockBackResistance',['../classPlayer.html#ae36516e739045db6ddc1eec58718c057',1,'Player']]],
-  ['knockbackxspeed',['knockBackXSpeed',['../classPlayer.html#a4da621745a245ea86cb71abfd30af7c0',1,'Player']]],
-  ['knockbackyspeed',['knockBackYSpeed',['../classPlayer.html#a300a17c40c8a574785de32ee0ba0cfde',1,'Player']]]
+  ['onhitenemy',['OnHitEnemy',['../classBaseProjectile.html#ac15ed2a3e03d8902811246059269bcb9',1,'BaseProjectile']]],
+  ['onhitground',['OnHitGround',['../classBaseProjectile.html#a5e3d58d2474bce9b1184f57e0b60171f',1,'BaseProjectile']]],
+  ['onhitplayer',['OnHitPlayer',['../classBaseEnemy.html#a79f8a6f4dd78ddb3c64e72b76c49e773',1,'BaseEnemy.OnHitPlayer()'],['../classBasePickup.html#aedb4e503fb04278f8d2943b7c56e3f0f',1,'BasePickup.OnHitPlayer()'],['../classBaseProjectile.html#a722cf4ce0234ec6f3b2b11c05789f2e0',1,'BaseProjectile.OnHitPlayer()']]]
 ];
