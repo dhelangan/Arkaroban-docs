@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['target',['target',['../classProjectile.html#af57a173866005c1510edb038214f0e7a',1,'Projectile']]],
-  ['targetplayer',['targetPlayer',['../classEnemy.html#a79bdf73640fd85b98fc161f99befad4f',1,'Enemy']]],
+  ['target',['target',['../classBaseProjectile.html#ac37cbf418c057a1f2ea264076e844385',1,'BaseProjectile']]],
+  ['targetplayer',['targetPlayer',['../classBaseEnemy.html#a7401a18e736de24e6bba5a13f4604b32',1,'BaseEnemy']]],
   ['targetroom',['targetRoom',['../classTeleporterData.html#ae1ee97bfc224a8ed423db803e75a0ec7',1,'TeleporterData']]],
   ['targetteleporter',['targetTeleporter',['../classTeleporterData.html#a7ac9bfb7cecdd1c1e812839637c644e1',1,'TeleporterData']]],
   ['teleporter',['teleporter',['../classGameScript.html#a7daed36adf6b1c6f0634995404794c55',1,'GameScript.teleporter()'],['../classTeleporterData.html#a747774bf972894d0039cd1ffed4370a7',1,'TeleporterData.teleporter()']]],

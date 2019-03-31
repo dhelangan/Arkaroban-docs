@@ -48,8 +48,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CinemachinePixelPerfect_8cs.html",
-"classProjectile.html#a9c9b79f11387a75dfc664d84f07ab5dc"
+"BaseEnemy_8cs.html",
+"classPlayer.html#aca4fba95410fa42b4fb941794ce39832"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -8,7 +8,7 @@ var classGameScript =
     [ "Teleport", "classGameScript.html#a352a23772ecebd016c3727ec9599065e", null ],
     [ "Win", "classGameScript.html#af0da8cebc61578cdc1826d6491ccec4a", null ],
     [ "bossBattle", "classGameScript.html#a808bc0f53676b982561bb4c49a4fc8e5", null ],
-    [ "bossEnemy", "classGameScript.html#ad7d021a201b58d707ad0394d53a0d487", null ],
+    [ "bossEnemy", "classGameScript.html#ac71ff27601f7fcce6283983b44767249", null ],
     [ "data", "classGameScript.html#afdfe1fae37779b9baab00f77a6dc7f1e", null ],
     [ "dead", "classGameScript.html#acfdb63d5fed4ef233c3b88562c0d5fe4", null ],
     [ "enemyLayer", "classGameScript.html#a4692624553dfc4da7df70dae96435d46", null ],

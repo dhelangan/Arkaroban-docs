@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rb2d',['rb2d',['../classPhysicsObject.html#ae890d5b0629394b3cab34ae99de13491',1,'PhysicsObject']]],
+  ['rb2d',['rb2d',['../classBaseObject.html#a259d161ac545e5ca5b068c5911fe78ee',1,'BaseObject']]],
   ['recalculatedata',['RecalculateData',['../classRoomData.html#a5b15d8c7c1f68e9e328164734bac79b5',1,'RoomData']]],
   ['receiverdata',['ReceiverData',['../classReceiverData.html',1,'']]],
   ['receivers',['receivers',['../classRoomData.html#a0547b55d55e797a25fa654e0ad71c6cd',1,'RoomData']]],

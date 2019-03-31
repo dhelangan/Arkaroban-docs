@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['target',['target',['../classProjectile.html#af57a173866005c1510edb038214f0e7a',1,'Projectile']]],
-  ['targetplayer',['targetPlayer',['../classEnemy.html#a79bdf73640fd85b98fc161f99befad4f',1,'Enemy']]],
+  ['target',['target',['../classBaseProjectile.html#ac37cbf418c057a1f2ea264076e844385',1,'BaseProjectile']]],
+  ['targetplayer',['targetPlayer',['../classBaseEnemy.html#a7401a18e736de24e6bba5a13f4604b32',1,'BaseEnemy']]],
   ['targetroom',['targetRoom',['../classTeleporterData.html#ae1ee97bfc224a8ed423db803e75a0ec7',1,'TeleporterData']]],
   ['targetteleporter',['targetTeleporter',['../classTeleporterData.html#a7ac9bfb7cecdd1c1e812839637c644e1',1,'TeleporterData']]],
   ['teleport',['Teleport',['../classGameScript.html#a352a23772ecebd016c3727ec9599065e',1,'GameScript']]],
@@ -9,7 +9,7 @@ var searchData=
   ['teleporterdata',['TeleporterData',['../classTeleporterData.html',1,'']]],
   ['teleporterdirection',['teleporterDirection',['../classTeleporterData.html#a8923d17640849e97e0c282f09990f5c5',1,'TeleporterData']]],
   ['teleporters',['teleporters',['../classRoomData.html#a0152ea0613672af77a2d67ae3b5270c9',1,'RoomData']]],
-  ['teleportertype',['teleporterType',['../classTeleporterData.html#aa671016f787cc490794428eb608cfcb1',1,'TeleporterData.teleporterType()'],['../classTeleporterData.html#a6ed8f2f08dcb14492da07bfe954b0c2e',1,'TeleporterData.TeleporterType()']]],
+  ['teleportertype',['TeleporterType',['../classTeleporterData.html#a6ed8f2f08dcb14492da07bfe954b0c2e',1,'TeleporterData.TeleporterType()'],['../classTeleporterData.html#aa671016f787cc490794428eb608cfcb1',1,'TeleporterData.teleporterType()']]],
   ['teleporttarget',['teleportTarget',['../classWorldTile.html#aa4da792d321e1fa9913f31d6f058ea17',1,'WorldTile']]],
   ['testmode',['testMode',['../classGameScript.html#a498158a0eb11cbea61e2f8416b964299',1,'GameScript']]],
   ['testroom',['testRoom',['../classGameScript.html#a0e0c20db3da99bba88bd72a39b600d7a',1,'GameScript']]],

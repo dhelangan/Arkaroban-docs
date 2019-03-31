@@ -1,0 +1,25 @@
+var classBaseProjectile =
+[
+    [ "AI", "classBaseProjectile.html#ac147912f183350f13d1d22ec66f73229", null ],
+    [ "OnHitEnemy", "classBaseProjectile.html#ac15ed2a3e03d8902811246059269bcb9", null ],
+    [ "OnHitGround", "classBaseProjectile.html#a5e3d58d2474bce9b1184f57e0b60171f", null ],
+    [ "OnHitPlayer", "classBaseProjectile.html#a722cf4ce0234ec6f3b2b11c05789f2e0", null ],
+    [ "SetDefault", "classBaseProjectile.html#a166183a57322846f2fc666e551453f54", null ],
+    [ "affectedByGravity", "classBaseProjectile.html#a2a7536aa305d6c2d4634ec52e819c04b", null ],
+    [ "damage", "classBaseProjectile.html#abe6f58e3fdb66f5f8216342b509441ac", null ],
+    [ "defaultSpeed", "classBaseProjectile.html#a3285445ea68a82fa1013143d6d305a7d", null ],
+    [ "deltaTime", "classBaseProjectile.html#a36b1062bc842216c2d28b3e13d43ca7c", null ],
+    [ "gravityModifier", "classBaseProjectile.html#affbea5eae1c7be2a6218169a07b44cc4", null ],
+    [ "lifeTime", "classBaseProjectile.html#aed5e8c1df0e177f35308fe60f0b2804e", null ],
+    [ "size", "classBaseProjectile.html#a2ec7a8dda1baa439e65d91e67d9ef59c", null ],
+    [ "sourceXFlip", "classBaseProjectile.html#afebf06f1bc18bc715359cce2347212d5", null ],
+    [ "spawnerPos", "classBaseProjectile.html#aba3a48b05b84ba9fece6c98d9d6d3d96", null ],
+    [ "spriteRenderer", "classBaseProjectile.html#af9fa60f8d15e621ab9fff0498cd828cb", null ],
+    [ "stayAlive", "classBaseProjectile.html#a53eafead58fb474c7a28f0844ceae048", null ],
+    [ "target", "classBaseProjectile.html#ac37cbf418c057a1f2ea264076e844385", null ],
+    [ "velocity", "classBaseProjectile.html#ae9da977c31e3975813fccd790a96311c", null ],
+    [ "Direction", "classBaseProjectile.html#af390b0127ffcf43ccaeb8c60b51a2e29", null ],
+    [ "Friendly", "classBaseProjectile.html#a4f08c4db28a2dce12543d6b8d234948b", null ],
+    [ "Source", "classBaseProjectile.html#ad3d27d03b0404125b8892f5ca15546c1", null ],
+    [ "Speed", "classBaseProjectile.html#a86a57d223e5a856639364d957596a7ef", null ]
+];

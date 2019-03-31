@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sortinglayerexposer',['SortingLayerExposer',['../classSortingLayerExposer.html',1,'']]],
-  ['soundmanager',['SoundManager',['../classSoundManager.html',1,'']]],
-  ['stagedata',['StageData',['../classStageData.html',1,'']]]
+  ['receiverdata',['ReceiverData',['../classReceiverData.html',1,'']]],
+  ['roomdata',['RoomData',['../classRoomData.html',1,'']]],
+  ['roommanager',['RoomManager',['../classRoomManager.html',1,'']]]
 ];

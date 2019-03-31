@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['friendly',['Friendly',['../classProjectile.html#a14922be0d2cce663140ad09a403316c2',1,'Projectile']]]
+  ['friendly',['Friendly',['../classBaseProjectile.html#a4f08c4db28a2dce12543d6b8d234948b',1,'BaseProjectile']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uimanager',['UIManager',['../classUIManager.html',1,'']]]
+  ['teleporterdata',['TeleporterData',['../classTeleporterData.html',1,'']]]
 ];

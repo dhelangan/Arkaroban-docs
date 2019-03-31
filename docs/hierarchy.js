@@ -6,18 +6,18 @@ var hierarchy =
     [ "GameScriptData", "classGameScriptData.html", null ],
     [ "GameUtility", "classGameUtility.html", null ],
     [ "MonoBehaviour", null, [
+      [ "BaseObject", "classBaseObject.html", [
+        [ "BaseEnemy", "classBaseEnemy.html", null ],
+        [ "BasePickup", "classBasePickup.html", null ],
+        [ "Player", "classPlayer.html", null ]
+      ] ],
+      [ "BaseProjectile", "classBaseProjectile.html", null ],
       [ "CinemachinePixelPerfect", "classCinemachinePixelPerfect.html", null ],
       [ "DifficultyManager", "classDifficultyManager.html", null ],
       [ "Door", "classDoor.html", null ],
       [ "GameScript", "classGameScript.html", null ],
       [ "Menu", "classMenu.html", null ],
       [ "MusicManager", "classMusicManager.html", null ],
-      [ "PhysicsObject", "classPhysicsObject.html", [
-        [ "Enemy", "classEnemy.html", null ],
-        [ "Pickup", "classPickup.html", null ],
-        [ "Player", "classPlayer.html", null ]
-      ] ],
-      [ "Projectile", "classProjectile.html", null ],
       [ "RoomManager", "classRoomManager.html", null ],
       [ "SortingLayerExposer", "classSortingLayerExposer.html", null ],
       [ "SoundManager", "classSoundManager.html", null ],

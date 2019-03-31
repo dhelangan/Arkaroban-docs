@@ -8,7 +8,7 @@ var searchData=
   ['left',['Left',['../GameUtility_8cs.html#a224b9163917ac32fc95a60d8c1eec3aaa945d5e233cf7d6240f6b783b36a374ff',1,'GameUtility.cs']]],
   ['leq',['Leq',['../classGameUtility.html#a35c9e5cc043f8b0809d7211e345899a4',1,'GameUtility']]],
   ['leq0',['Leq0',['../classGameUtility.html#a84fd9ec43d4dd32b6f892c81824cec71',1,'GameUtility']]],
-  ['lifetime',['lifeTime',['../classProjectile.html#ab5322354a151820e33247f075eb758b3',1,'Projectile']]],
+  ['lifetime',['lifeTime',['../classBaseProjectile.html#aed5e8c1df0e177f35308fe60f0b2804e',1,'BaseProjectile']]],
   ['loadroom',['LoadRoom',['../classGameScript.html#a26eeebc16f9bb7e071bab60dc45841fc',1,'GameScript']]],
   ['loadroomdata',['LoadRoomData',['../classRoomManager.html#a3ac3096cea2b68e91a00f927b054865c',1,'RoomManager']]],
   ['localchunkpos',['localChunkPos',['../classChunkData.html#a6e62f2157a5687a86fb7c4c1aa36edb8',1,'ChunkData']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['difficultymanager',['DifficultyManager',['../classDifficultyManager.html',1,'']]],
-  ['door',['Door',['../classDoor.html',1,'']]]
+  ['chunkdata',['ChunkData',['../classChunkData.html',1,'']]],
+  ['chunkrow',['ChunkRow',['../classChunkRow.html',1,'']]],
+  ['cinemachinepixelperfect',['CinemachinePixelPerfect',['../classCinemachinePixelPerfect.html',1,'']]]
 ];

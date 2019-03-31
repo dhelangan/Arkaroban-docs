@@ -2,7 +2,7 @@ var classUIManager =
 [
     [ "ForceRefreshMinimap", "classUIManager.html#a1e8711be8d21242adee909a2c835dfd7", null ],
     [ "RefreshMinimap", "classUIManager.html#a8e4361129188eea07f42065a341eedd5", null ],
-    [ "boss", "classUIManager.html#add36ab63d385a0732b537833cac85959", null ],
+    [ "boss", "classUIManager.html#aeb7bf036c047190f33ce4ba6d9d5b600", null ],
     [ "bossHpSlider", "classUIManager.html#ae6b40af00473104328c0d73878b80109", null ],
     [ "bossHPSliderFill", "classUIManager.html#a0eb9277e855bbc4a4b44e54134261517", null ],
     [ "bossNameText", "classUIManager.html#a694526351471235019b285ebf3a46eaf", null ],
