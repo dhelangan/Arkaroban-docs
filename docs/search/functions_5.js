@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['geq',['Geq',['../classGameUtility.html#a03651ed78adbb7b1037d2523b0d74c24',1,'GameUtility']]]
+  ['fixedai',['FixedAI',['../classBaseEnemy.html#a9023e4c26d2530e91634c37e105dd9b8',1,'BaseEnemy']]]
 ];

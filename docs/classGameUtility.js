@@ -4,6 +4,7 @@ var classGameUtility =
     [ "BetweenVector2Int", "classGameUtility.html#a000f8cfbfc3cfd6c3d350c4cfb16232e", null ],
     [ "CalculateVelocity", "classGameUtility.html#aff3fa56723974d4d165ca41a4d47347b", null ],
     [ "ComplexMult", "classGameUtility.html#afc941cdceb525e47489341c33baa024a", null ],
+    [ "CreateWeapon", "classGameUtility.html#a43c61cd8e1464b23a563439cb583bfa2", null ],
     [ "DirectionToVector2Int", "classGameUtility.html#a749c4e43bd3771fe0628512d4204463b", null ],
     [ "Geq", "classGameUtility.html#a03651ed78adbb7b1037d2523b0d74c24", null ],
     [ "HueLerp", "classGameUtility.html#ad84a6058bf70ea51f1a71082e5b0aa1f", null ],

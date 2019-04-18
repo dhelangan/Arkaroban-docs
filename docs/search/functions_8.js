@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['onhitenemy',['OnHitEnemy',['../classBaseProjectile.html#ac15ed2a3e03d8902811246059269bcb9',1,'BaseProjectile']]],
-  ['onhitground',['OnHitGround',['../classBaseProjectile.html#a5e3d58d2474bce9b1184f57e0b60171f',1,'BaseProjectile']]],
-  ['onhitplayer',['OnHitPlayer',['../classBaseEnemy.html#a79f8a6f4dd78ddb3c64e72b76c49e773',1,'BaseEnemy.OnHitPlayer()'],['../classBasePickup.html#aedb4e503fb04278f8d2943b7c56e3f0f',1,'BasePickup.OnHitPlayer()'],['../classBaseProjectile.html#a722cf4ce0234ec6f3b2b11c05789f2e0',1,'BaseProjectile.OnHitPlayer()']]]
+  ['leq',['Leq',['../classGameUtility.html#a35c9e5cc043f8b0809d7211e345899a4',1,'GameUtility']]],
+  ['leq0',['Leq0',['../classGameUtility.html#a84fd9ec43d4dd32b6f892c81824cec71',1,'GameUtility']]]
 ];

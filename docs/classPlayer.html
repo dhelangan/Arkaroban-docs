@@ -90,7 +90,6 @@ $(document).ready(function(){initNavTree('classPlayer.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classPlayer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -120,6 +119,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetHit</b> (Vector2 d
 <tr class="memitem:a67523ccc1a65d18d0dcd9d235c512187"><td class="memItemLeft" align="right" valign="top"><a id="a67523ccc1a65d18d0dcd9d235c512187"></a>
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>GetPosition</b> ()</td></tr>
 <tr class="separator:a67523ccc1a65d18d0dcd9d235c512187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40deada6c6bbcc1c71226cef768154a4"><td class="memItemLeft" align="right" valign="top"><a id="a40deada6c6bbcc1c71226cef768154a4"></a>
+<a class="el" href="classBaseWeapon.html">BaseWeapon</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetWeapon</b> (string name)</td></tr>
+<tr class="separator:a40deada6c6bbcc1c71226cef768154a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74428cc1dd6cce8cb28927dd96426d35"><td class="memItemLeft" align="right" valign="top"><a id="a74428cc1dd6cce8cb28927dd96426d35"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetWeaponLevel</b> ()</td></tr>
+<tr class="separator:a74428cc1dd6cce8cb28927dd96426d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0d8e4ddcb47cb909f6be2c306b6e3c"><td class="memItemLeft" align="right" valign="top"><a id="a1a0d8e4ddcb47cb909f6be2c306b6e3c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasWeapon</b> (string name)</td></tr>
+<tr class="separator:a1a0d8e4ddcb47cb909f6be2c306b6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd5c8cc69ecd6c5d9d4b8956b8e2534"><td class="memItemLeft" align="right" valign="top"><a id="a1fd5c8cc69ecd6c5d9d4b8956b8e2534"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Knockback</b> (Vector2 direction, float attackMultiplier=1f)</td></tr>
 <tr class="separator:a1fd5c8cc69ecd6c5d9d4b8956b8e2534"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,48 +137,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPosition</b> (Vect
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a89fec12f0614d298c22d3d09e92a9489"><td class="memItemLeft" align="right" valign="top"><a id="a89fec12f0614d298c22d3d09e92a9489"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>activeWeapon</b> = 0</td></tr>
+<tr class="separator:a89fec12f0614d298c22d3d09e92a9489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a570485c406c7f66beac74fdce4870f0d"><td class="memItemLeft" align="right" valign="top"><a id="a570485c406c7f66beac74fdce4870f0d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>blinkRateMax</b> = .2f</td></tr>
 <tr class="separator:a570485c406c7f66beac74fdce4870f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6957a094a9aa036c8805b5a8ec3765"><td class="memItemLeft" align="right" valign="top"><a id="a7a6957a094a9aa036c8805b5a8ec3765"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>canShoot</b> = false</td></tr>
-<tr class="separator:a7a6957a094a9aa036c8805b5a8ec3765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d419dbb29c9d75e63212a9389482b24"><td class="memItemLeft" align="right" valign="top"><a id="a5d419dbb29c9d75e63212a9389482b24"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>godMode</b> = false</td></tr>
 <tr class="separator:a5d419dbb29c9d75e63212a9389482b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8451ce29c47a7aaeedf370e42a23d306"><td class="memItemLeft" align="right" valign="top"><a id="a8451ce29c47a7aaeedf370e42a23d306"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunBulletSpeed</b> = 10f</td></tr>
-<tr class="separator:a8451ce29c47a7aaeedf370e42a23d306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f9b6dcf3d28bc06bbc0091baf03c25c"><td class="memItemLeft" align="right" valign="top"><a id="a7f9b6dcf3d28bc06bbc0091baf03c25c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>gunCanRecharge</b> = false</td></tr>
-<tr class="separator:a7f9b6dcf3d28bc06bbc0091baf03c25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba1f30e0a683060e350209c449e7e9f3"><td class="memItemLeft" align="right" valign="top"><a id="aba1f30e0a683060e350209c449e7e9f3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>gunDamage</b> = 5</td></tr>
-<tr class="separator:aba1f30e0a683060e350209c449e7e9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6276f272785c5fec942a5ff012b52552"><td class="memItemLeft" align="right" valign="top"><a id="a6276f272785c5fec942a5ff012b52552"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunDistance</b> = .6f</td></tr>
-<tr class="separator:a6276f272785c5fec942a5ff012b52552"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca4fba95410fa42b4fb941794ce39832"><td class="memItemLeft" align="right" valign="top"><a id="aca4fba95410fa42b4fb941794ce39832"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>gunFired</b> = false</td></tr>
-<tr class="separator:aca4fba95410fa42b4fb941794ce39832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f99278204efc47d2361527fcc06ee4"><td class="memItemLeft" align="right" valign="top"><a id="ad1f99278204efc47d2361527fcc06ee4"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunHoldMax</b></td></tr>
-<tr class="separator:ad1f99278204efc47d2361527fcc06ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada74f9e517783b49870aae5bdccb6181"><td class="memItemLeft" align="right" valign="top"><a id="ada74f9e517783b49870aae5bdccb6181"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>gunLevel</b> = 0</td></tr>
-<tr class="separator:ada74f9e517783b49870aae5bdccb6181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdd385abce9c60a7c1959d18425ee73f"><td class="memItemLeft" align="right" valign="top"><a id="acdd385abce9c60a7c1959d18425ee73f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunPower</b> = 0f</td></tr>
-<tr class="separator:acdd385abce9c60a7c1959d18425ee73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a84b4c041307840c0639be2c6ed1e9"><td class="memItemLeft" align="right" valign="top"><a id="ae8a84b4c041307840c0639be2c6ed1e9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunPowerMax</b> = 100f</td></tr>
-<tr class="separator:ae8a84b4c041307840c0639be2c6ed1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46e984029ee24f6670961f9791c3e27e"><td class="memItemLeft" align="right" valign="top"><a id="a46e984029ee24f6670961f9791c3e27e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>gunRechargeDelayStart</b> = false</td></tr>
-<tr class="separator:a46e984029ee24f6670961f9791c3e27e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620f0a967c0dd9e47b49b55a192def3e"><td class="memItemLeft" align="right" valign="top"><a id="a620f0a967c0dd9e47b49b55a192def3e"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>gunRechargeSpeed</b> = 125f</td></tr>
-<tr class="separator:a620f0a967c0dd9e47b49b55a192def3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab064f330cef84e2e062fd6446db24184"><td class="memItemLeft" align="right" valign="top"><a id="ab064f330cef84e2e062fd6446db24184"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>health</b></td></tr>
 <tr class="separator:ab064f330cef84e2e062fd6446db24184"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +179,24 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>maxHealth</b> = 100</t
 <tr class="memitem:aeb49f43f1ede71106350b2480c38c2d1"><td class="memItemLeft" align="right" valign="top"><a id="aeb49f43f1ede71106350b2480c38c2d1"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>maxSpeed</b> = 6f</td></tr>
 <tr class="separator:aeb49f43f1ede71106350b2480c38c2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf71886750113a7372656bd9d919e427"><td class="memItemLeft" align="right" valign="top"><a id="abf71886750113a7372656bd9d919e427"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>weaponCanRecharge</b> = false</td></tr>
+<tr class="separator:abf71886750113a7372656bd9d919e427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a943f2858a5cd142679a4da432eebe"><td class="memItemLeft" align="right" valign="top"><a id="ae5a943f2858a5cd142679a4da432eebe"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>weaponPower</b> = 0f</td></tr>
+<tr class="separator:ae5a943f2858a5cd142679a4da432eebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5805167c8388a532d0b373e4253e6cfb"><td class="memItemLeft" align="right" valign="top"><a id="a5805167c8388a532d0b373e4253e6cfb"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>weaponPowerMax</b> = 100f</td></tr>
+<tr class="separator:a5805167c8388a532d0b373e4253e6cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb8d55a490b8aa34b8f01afdfb30b4d"><td class="memItemLeft" align="right" valign="top"><a id="a1fb8d55a490b8aa34b8f01afdfb30b4d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>weaponRechargeDelayStart</b> = false</td></tr>
+<tr class="separator:a1fb8d55a490b8aa34b8f01afdfb30b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0eb320e46e041696b3f1ec94a674fba"><td class="memItemLeft" align="right" valign="top"><a id="ae0eb320e46e041696b3f1ec94a674fba"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>weaponRechargeSpeed</b> = 125f</td></tr>
+<tr class="separator:ae0eb320e46e041696b3f1ec94a674fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fce2f9cb9d879a86089c6dfc497e1a"><td class="memItemLeft" align="right" valign="top"><a id="ab2fce2f9cb9d879a86089c6dfc497e1a"></a>
+List&lt; <a class="el" href="classBaseWeapon.html">BaseWeapon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>weapons</b></td></tr>
+<tr class="separator:ab2fce2f9cb9d879a86089c6dfc497e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
 <tr class="memitem:a87b8c0e42fa70c68b42eb67806b04b2b inherit pub_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="a87b8c0e42fa70c68b42eb67806b04b2b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>affectedByGravity</b> = true</td></tr>
@@ -224,30 +217,24 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>minGroundNormalY</b>
 Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b> = Vector2.zero</td></tr>
 <tr class="separator:ae234ce5479b35d91148a813f0b7de3d8 inherit pub_attribs_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:acc57f78a2b0011e8d4576cec2db1910b"><td class="memItemLeft" align="right" valign="top"><a id="acc57f78a2b0011e8d4576cec2db1910b"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>POFixedUpdate</b> ()</td></tr>
-<tr class="separator:acc57f78a2b0011e8d4576cec2db1910b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a1fa700d7fa9a52122ac9482469417a54"><td class="memItemLeft" align="right" valign="top"><a id="a1fa700d7fa9a52122ac9482469417a54"></a>
+Vector2?&#160;</td><td class="memItemRight" valign="bottom"><b>WeaponDirection</b><code> [get]</code></td></tr>
+<tr class="separator:a1fa700d7fa9a52122ac9482469417a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
+<tr class="memitem:a93cb86c5092403db40c43d5f38caa448 inherit pro_methods_classBaseObject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a93cb86c5092403db40c43d5f38caa448">POFixedUpdate</a> ()</td></tr>
+<tr class="memdesc:a93cb86c5092403db40c43d5f38caa448 inherit pro_methods_classBaseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run in FixedUpdate  <a href="classBaseObject.html#a93cb86c5092403db40c43d5f38caa448">More...</a><br /></td></tr>
+<tr class="separator:a93cb86c5092403db40c43d5f38caa448 inherit pro_methods_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a5114f3ddaba01c43a94768f144d07fa0">POOnEnable</a> ()</td></tr>
 <tr class="memdesc:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run in OnEnable  <a href="classBaseObject.html#a5114f3ddaba01c43a94768f144d07fa0">More...</a><br /></td></tr>
 <tr class="separator:a5114f3ddaba01c43a94768f144d07fa0 inherit pro_methods_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aa31aa29ebc71828acac26c9d338d16 inherit pro_methods_classBaseObject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseObject.html#a6aa31aa29ebc71828acac26c9d338d16">POStart</a> ()</td></tr>
 <tr class="memdesc:a6aa31aa29ebc71828acac26c9d338d16 inherit pro_methods_classBaseObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run in Start  <a href="classBaseObject.html#a6aa31aa29ebc71828acac26c9d338d16">More...</a><br /></td></tr>
 <tr class="separator:a6aa31aa29ebc71828acac26c9d338d16 inherit pro_methods_classBaseObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a122ef24db3c72864c4aee5fd1eaa9116"><td class="memItemLeft" align="right" valign="top"><a id="a122ef24db3c72864c4aee5fd1eaa9116"></a>
-Vector2?&#160;</td><td class="memItemRight" valign="bottom"><b>GunDirection</b><code> [get]</code></td></tr>
-<tr class="separator:a122ef24db3c72864c4aee5fd1eaa9116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa32f219d82c219771141e628164fcb89"><td class="memItemLeft" align="right" valign="top"><a id="aa32f219d82c219771141e628164fcb89"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>GunUsage</b><code> [get]</code></td></tr>
-<tr class="separator:aa32f219d82c219771141e628164fcb89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classBaseObject"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classBaseObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classBaseObject.html">BaseObject</a></td></tr>
 <tr class="memitem:abb31a13a4dfb6493e9b81d45a8ab5f38 inherit pro_attribs_classBaseObject"><td class="memItemLeft" align="right" valign="top"><a id="abb31a13a4dfb6493e9b81d45a8ab5f38"></a>
 ContactFilter2D&#160;</td><td class="memItemRight" valign="bottom"><b>contactFilter</b></td></tr>
@@ -283,7 +270,7 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>shellRadius</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classPlayer.html">Player</a></li>
-    <li class="footer">Generated on Sun Mar 31 2019 21:55:34 for Arkaroban by
+    <li class="footer">Generated on Thu Apr 18 2019 20:13:49 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

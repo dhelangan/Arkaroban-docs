@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tilepostolocalchunkpos',['TilePosToLocalChunkPos',['../classGameUtility.html#a810f8cb789d61a8a6d8ebe76065341e2',1,'GameUtility']]]
+  ['setdefault',['SetDefault',['../classBaseEnemy.html#aec6885b01677d3de6a4a2c89ecae6ee1',1,'BaseEnemy.SetDefault()'],['../classBasePickup.html#a84f8447c5d6387725a2df82013404bfb',1,'BasePickup.SetDefault()'],['../classBaseProjectile.html#a166183a57322846f2fc666e551453f54',1,'BaseProjectile.SetDefault()'],['../classBaseWeapon.html#ad0155b412168790a5b9cd22903f1ee00',1,'BaseWeapon.SetDefault()']]],
+  ['startuse',['StartUse',['../classBaseWeapon.html#abb972f880dc84bbe0a8beb3b300a3dff',1,'BaseWeapon']]]
 ];

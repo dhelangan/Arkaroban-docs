@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['rotateccw',['RotateCCW',['../classGameUtility.html#a20df7915a92ab37bfaf97b0c97d8cf75',1,'GameUtility']]],
-  ['rotatecw',['RotateCW',['../classGameUtility.html#a4a3013e455a49e5d16f2150d82b41028',1,'GameUtility']]],
-  ['rotatequat',['RotateQuat',['../classGameUtility.html#a5b795ca0cb93727cd3cf171c1058cb85',1,'GameUtility']]],
-  ['rotation',['Rotation',['../classGameUtility.html#af09be7062f113a34a5861a7f06a0a460',1,'GameUtility']]]
+  ['pofixedupdate',['POFixedUpdate',['../classBaseObject.html#a93cb86c5092403db40c43d5f38caa448',1,'BaseObject']]],
+  ['poonenable',['POOnEnable',['../classBaseObject.html#a5114f3ddaba01c43a94768f144d07fa0',1,'BaseObject']]],
+  ['postart',['POStart',['../classBaseObject.html#a6aa31aa29ebc71828acac26c9d338d16',1,'BaseObject']]]
 ];

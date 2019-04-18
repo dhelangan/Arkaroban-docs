@@ -4,6 +4,7 @@ var annotated_dup =
     [ "BaseObject", "classBaseObject.html", "classBaseObject" ],
     [ "BasePickup", "classBasePickup.html", "classBasePickup" ],
     [ "BaseProjectile", "classBaseProjectile.html", "classBaseProjectile" ],
+    [ "BaseWeapon", "classBaseWeapon.html", "classBaseWeapon" ],
     [ "ChunkData", "classChunkData.html", "classChunkData" ],
     [ "ChunkRow", "classChunkRow.html", "classChunkRow" ],
     [ "CinemachinePixelPerfect", "classCinemachinePixelPerfect.html", null ],
@@ -26,6 +27,7 @@ var annotated_dup =
     [ "SoundManager", "classSoundManager.html", "classSoundManager" ],
     [ "StageData", "classStageData.html", "classStageData" ],
     [ "TeleporterData", "classTeleporterData.html", "classTeleporterData" ],
+    [ "Timer", "classTimer.html", "classTimer" ],
     [ "UIManager", "classUIManager.html", "classUIManager" ],
     [ "WorldManager", "classWorldManager.html", "classWorldManager" ],
     [ "WorldTile", "classWorldTile.html", "classWorldTile" ]

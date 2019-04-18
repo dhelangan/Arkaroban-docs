@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fixedai',['FixedAI',['../classBaseEnemy.html#a9023e4c26d2530e91634c37e105dd9b8',1,'BaseEnemy']]]
+  ['enduse',['EndUse',['../classBaseWeapon.html#acc10b93abe45de932b47af8cb22b7d04',1,'BaseWeapon']]]
 ];

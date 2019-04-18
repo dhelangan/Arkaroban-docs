@@ -16,5 +16,6 @@ var classUIManager =
     [ "minimap", "classUIManager.html#a54ac29ad5cb26f3830c9b61b1ade27a9", null ],
     [ "minimapSize", "classUIManager.html#a269f32893d17731c0b7627a9fb9e0d41", null ],
     [ "player", "classUIManager.html#a1e0b6c11663328d1f72f42935a6ee0bc", null ],
+    [ "timer", "classUIManager.html#a633cf1bda82a55e15f41533d1a1d1232", null ],
     [ "timerPanel", "classUIManager.html#ac6e433e3b9d88b515c06c56ba2e54821", null ]
 ];

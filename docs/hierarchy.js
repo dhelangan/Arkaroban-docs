@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "BaseWeapon", "classBaseWeapon.html", null ],
     [ "ChunkData", "classChunkData.html", null ],
     [ "ChunkRow", "classChunkRow.html", null ],
     [ "EnemyManager", "classEnemyManager.html", null ],
@@ -33,5 +34,6 @@ var hierarchy =
       [ "StageData", "classStageData.html", null ]
     ] ],
     [ "TeleporterData", "classTeleporterData.html", null ],
+    [ "Timer", "classTimer.html", null ],
     [ "WorldTile", "classWorldTile.html", null ]
 ];
