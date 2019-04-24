@@ -5,5 +5,6 @@ var classGameScriptData =
     [ "lastRoom", "classGameScriptData.html#a21af3bdf94e3fcc4d1ba9e28187d1aac", null ],
     [ "lastSpawn", "classGameScriptData.html#aa05c043922603a091a772a6c3d95f3f7", null ],
     [ "savedMapRow", "classGameScriptData.html#a2fb9a37bbe1f1073de3d06664c7b6744", null ],
-    [ "score", "classGameScriptData.html#aa677f72d491a2814f0bf8c7ea60aeacc", null ]
+    [ "score", "classGameScriptData.html#aa677f72d491a2814f0bf8c7ea60aeacc", null ],
+    [ "weapons", "classGameScriptData.html#a6903410720813af1f01b547131f4e65a", null ]
 ];

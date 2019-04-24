@@ -113,9 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afc941cdceb525e47489341c33baa024a"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#afc941cdceb525e47489341c33baa024a">ComplexMult</a> (this Vector2 aVec, Vector2 aOther)</td></tr>
 <tr class="memdesc:afc941cdceb525e47489341c33baa024a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do complex multiplication  <a href="#afc941cdceb525e47489341c33baa024a">More...</a><br /></td></tr>
 <tr class="separator:afc941cdceb525e47489341c33baa024a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c61cd8e1464b23a563439cb583bfa2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classBaseWeapon.html">BaseWeapon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a43c61cd8e1464b23a563439cb583bfa2">CreateWeapon</a> (string name)</td></tr>
-<tr class="memdesc:a43c61cd8e1464b23a563439cb583bfa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new weapon  <a href="#a43c61cd8e1464b23a563439cb583bfa2">More...</a><br /></td></tr>
-<tr class="separator:a43c61cd8e1464b23a563439cb583bfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa840e625a19e95e14f1c950b750d6890"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classBaseWeapon.html">BaseWeapon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#aa840e625a19e95e14f1c950b750d6890">CreateWeapon</a> (string name, int level=0)</td></tr>
+<tr class="memdesc:aa840e625a19e95e14f1c950b750d6890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new weapon  <a href="#aa840e625a19e95e14f1c950b750d6890">More...</a><br /></td></tr>
+<tr class="separator:aa840e625a19e95e14f1c950b750d6890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749c4e43bd3771fe0628512d4204463b"><td class="memItemLeft" align="right" valign="top">static Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a749c4e43bd3771fe0628512d4204463b">DirectionToVector2Int</a> (Direction direction)</td></tr>
 <tr class="memdesc:a749c4e43bd3771fe0628512d4204463b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Direction to vector direction in Chunk coordinate system  <a href="#a749c4e43bd3771fe0628512d4204463b">More...</a><br /></td></tr>
 <tr class="separator:a749c4e43bd3771fe0628512d4204463b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +143,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af09be7062f113a34a5861a7f06a0a460"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#af09be7062f113a34a5861a7f06a0a460">Rotation</a> (float aDegree)</td></tr>
 <tr class="memdesc:af09be7062f113a34a5861a7f06a0a460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert angle to Complex number  <a href="#af09be7062f113a34a5861a7f06a0a460">More...</a><br /></td></tr>
 <tr class="separator:af09be7062f113a34a5861a7f06a0a460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd53493b425a4b8ff1278d7c9537912f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#acd53493b425a4b8ff1278d7c9537912f">SpawnPopupText</a> (string text, Vector2 position)</td></tr>
+<tr class="memdesc:acd53493b425a4b8ff1278d7c9537912f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn pop up text  <a href="#acd53493b425a4b8ff1278d7c9537912f">More...</a><br /></td></tr>
+<tr class="separator:acd53493b425a4b8ff1278d7c9537912f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810f8cb789d61a8a6d8ebe76065341e2"><td class="memItemLeft" align="right" valign="top">static Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGameUtility.html#a810f8cb789d61a8a6d8ebe76065341e2">TilePosToLocalChunkPos</a> (int tileX, int tileY, Vector2Int topLeftChunk, Vector2Int chunkSize)</td></tr>
 <tr class="memdesc:a810f8cb789d61a8a6d8ebe76065341e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert tile grid position to local chunk position (-y,x)  <a href="#a810f8cb789d61a8a6d8ebe76065341e2">More...</a><br /></td></tr>
 <tr class="separator:a810f8cb789d61a8a6d8ebe76065341e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -341,8 +344,8 @@ static Color&#160;</td><td class="memItemRight" valign="bottom"><b>purple0</b> =
 
 </div>
 </div>
-<a id="a43c61cd8e1464b23a563439cb583bfa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c61cd8e1464b23a563439cb583bfa2">&#9670;&nbsp;</a></span>CreateWeapon()</h2>
+<a id="aa840e625a19e95e14f1c950b750d6890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa840e625a19e95e14f1c950b750d6890">&#9670;&nbsp;</a></span>CreateWeapon()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,8 +357,18 @@ static Color&#160;</td><td class="memItemRight" valign="bottom"><b>purple0</b> =
           <td class="memname">static <a class="el" href="classBaseWeapon.html">BaseWeapon</a> GameUtility.CreateWeapon </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -700,6 +713,51 @@ static Color&#160;</td><td class="memItemRight" valign="bottom"><b>purple0</b> =
 
 </div>
 </div>
+<a id="acd53493b425a4b8ff1278d7c9537912f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd53493b425a4b8ff1278d7c9537912f">&#9670;&nbsp;</a></span>SpawnPopupText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void GameUtility.SpawnPopupText </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Spawn pop up text </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text to spawn</td></tr>
+    <tr><td class="paramname">position</td><td>Position of text</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a810f8cb789d61a8a6d8ebe76065341e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a810f8cb789d61a8a6d8ebe76065341e2">&#9670;&nbsp;</a></span>TilePosToLocalChunkPos()</h2>
 
@@ -765,7 +823,7 @@ static Color&#160;</td><td class="memItemRight" valign="bottom"><b>purple0</b> =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classGameUtility.html">GameUtility</a></li>
-    <li class="footer">Generated on Thu Apr 18 2019 20:13:48 for Arkaroban by
+    <li class="footer">Generated on Wed Apr 24 2019 17:43:56 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

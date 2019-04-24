@@ -5,10 +5,11 @@ var classPlayer =
     [ "GetPosition", "classPlayer.html#a67523ccc1a65d18d0dcd9d235c512187", null ],
     [ "GetWeapon", "classPlayer.html#a40deada6c6bbcc1c71226cef768154a4", null ],
     [ "GetWeaponLevel", "classPlayer.html#a74428cc1dd6cce8cb28927dd96426d35", null ],
+    [ "GetWeaponLevel", "classPlayer.html#a49e1e9fd41e22777b10e6de5ec757305", null ],
     [ "HasWeapon", "classPlayer.html#a1a0d8e4ddcb47cb909f6be2c306b6e3c", null ],
     [ "Knockback", "classPlayer.html#a1fd5c8cc69ecd6c5d9d4b8956b8e2534", null ],
     [ "SetPosition", "classPlayer.html#a136ec01218c8e1ec85453946aea3c6f9", null ],
-    [ "activeWeapon", "classPlayer.html#a89fec12f0614d298c22d3d09e92a9489", null ],
+    [ "activeWeaponIndex", "classPlayer.html#ab08f2f8f4e8d831514e0c6e0535cdb9c", null ],
     [ "blinkRateMax", "classPlayer.html#a570485c406c7f66beac74fdce4870f0d", null ],
     [ "godMode", "classPlayer.html#a5d419dbb29c9d75e63212a9389482b24", null ],
     [ "health", "classPlayer.html#ab064f330cef84e2e062fd6446db24184", null ],
@@ -28,5 +29,7 @@ var classPlayer =
     [ "weaponRechargeDelayStart", "classPlayer.html#a1fb8d55a490b8aa34b8f01afdfb30b4d", null ],
     [ "weaponRechargeSpeed", "classPlayer.html#ae0eb320e46e041696b3f1ec94a674fba", null ],
     [ "weapons", "classPlayer.html#ab2fce2f9cb9d879a86089c6dfc497e1a", null ],
+    [ "ActiveWeapon", "classPlayer.html#ae6308aeba78baa05500a89510491e8c7", null ],
+    [ "SpriteFlipX", "classPlayer.html#a630a705af6b1143d32194457fa88d6cf", null ],
     [ "WeaponDirection", "classPlayer.html#a1fa700d7fa9a52122ac9482469417a54", null ]
 ];

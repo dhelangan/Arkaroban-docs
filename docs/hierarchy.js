@@ -19,6 +19,7 @@ var hierarchy =
       [ "GameScript", "classGameScript.html", null ],
       [ "Menu", "classMenu.html", null ],
       [ "MusicManager", "classMusicManager.html", null ],
+      [ "PopupText", "classPopupText.html", null ],
       [ "RoomManager", "classRoomManager.html", null ],
       [ "SortingLayerExposer", "classSortingLayerExposer.html", null ],
       [ "SoundManager", "classSoundManager.html", null ],
@@ -33,6 +34,7 @@ var hierarchy =
       [ "RoomData", "classRoomData.html", null ],
       [ "StageData", "classStageData.html", null ]
     ] ],
+    [ "SerializedWeapon", "classSerializedWeapon.html", null ],
     [ "TeleporterData", "classTeleporterData.html", null ],
     [ "Timer", "classTimer.html", null ],
     [ "WorldTile", "classWorldTile.html", null ]

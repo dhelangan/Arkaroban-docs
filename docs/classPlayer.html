@@ -125,6 +125,9 @@ Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>GetPosition</b> ()
 <tr class="memitem:a74428cc1dd6cce8cb28927dd96426d35"><td class="memItemLeft" align="right" valign="top"><a id="a74428cc1dd6cce8cb28927dd96426d35"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetWeaponLevel</b> ()</td></tr>
 <tr class="separator:a74428cc1dd6cce8cb28927dd96426d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e1e9fd41e22777b10e6de5ec757305"><td class="memItemLeft" align="right" valign="top"><a id="a49e1e9fd41e22777b10e6de5ec757305"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>GetWeaponLevel</b> (string name)</td></tr>
+<tr class="separator:a49e1e9fd41e22777b10e6de5ec757305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0d8e4ddcb47cb909f6be2c306b6e3c"><td class="memItemLeft" align="right" valign="top"><a id="a1a0d8e4ddcb47cb909f6be2c306b6e3c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasWeapon</b> (string name)</td></tr>
 <tr class="separator:a1a0d8e4ddcb47cb909f6be2c306b6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,9 +140,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPosition</b> (Vect
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a89fec12f0614d298c22d3d09e92a9489"><td class="memItemLeft" align="right" valign="top"><a id="a89fec12f0614d298c22d3d09e92a9489"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>activeWeapon</b> = 0</td></tr>
-<tr class="separator:a89fec12f0614d298c22d3d09e92a9489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08f2f8f4e8d831514e0c6e0535cdb9c"><td class="memItemLeft" align="right" valign="top"><a id="ab08f2f8f4e8d831514e0c6e0535cdb9c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>activeWeaponIndex</b> = 0</td></tr>
+<tr class="separator:ab08f2f8f4e8d831514e0c6e0535cdb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a570485c406c7f66beac74fdce4870f0d"><td class="memItemLeft" align="right" valign="top"><a id="a570485c406c7f66beac74fdce4870f0d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>blinkRateMax</b> = .2f</td></tr>
 <tr class="separator:a570485c406c7f66beac74fdce4870f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +222,12 @@ Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b> = Vec
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ae6308aeba78baa05500a89510491e8c7"><td class="memItemLeft" align="right" valign="top"><a id="ae6308aeba78baa05500a89510491e8c7"></a>
+<a class="el" href="classBaseWeapon.html">BaseWeapon</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ActiveWeapon</b><code> [get]</code></td></tr>
+<tr class="separator:ae6308aeba78baa05500a89510491e8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630a705af6b1143d32194457fa88d6cf"><td class="memItemLeft" align="right" valign="top"><a id="a630a705af6b1143d32194457fa88d6cf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>SpriteFlipX</b><code> [get]</code></td></tr>
+<tr class="separator:a630a705af6b1143d32194457fa88d6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa700d7fa9a52122ac9482469417a54"><td class="memItemLeft" align="right" valign="top"><a id="a1fa700d7fa9a52122ac9482469417a54"></a>
 Vector2?&#160;</td><td class="memItemRight" valign="bottom"><b>WeaponDirection</b><code> [get]</code></td></tr>
 <tr class="separator:a1fa700d7fa9a52122ac9482469417a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,7 +279,7 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>shellRadius</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classPlayer.html">Player</a></li>
-    <li class="footer">Generated on Thu Apr 18 2019 20:13:49 for Arkaroban by
+    <li class="footer">Generated on Wed Apr 24 2019 17:43:56 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

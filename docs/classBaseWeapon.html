@@ -105,6 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc10b93abe45de932b47af8cb22b7d04"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseWeapon.html#acc10b93abe45de932b47af8cb22b7d04">EndUse</a> ()</td></tr>
 <tr class="memdesc:acc10b93abe45de932b47af8cb22b7d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">when player release attack button  <a href="#acc10b93abe45de932b47af8cb22b7d04">More...</a><br /></td></tr>
 <tr class="separator:acc10b93abe45de932b47af8cb22b7d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae114910f8ba49a7942386840156d6ec2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseWeapon.html#ae114910f8ba49a7942386840156d6ec2">HoldUse</a> ()</td></tr>
+<tr class="memdesc:ae114910f8ba49a7942386840156d6ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">when player hold attack button  <a href="#ae114910f8ba49a7942386840156d6ec2">More...</a><br /></td></tr>
+<tr class="separator:ae114910f8ba49a7942386840156d6ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0155b412168790a5b9cd22903f1ee00"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBaseWeapon.html#ad0155b412168790a5b9cd22903f1ee00">SetDefault</a> ()</td></tr>
 <tr class="memdesc:ad0155b412168790a5b9cd22903f1ee00"><td class="mdescLeft">&#160;</td><td class="mdescRight">set default parameter when created  <a href="#ad0155b412168790a5b9cd22903f1ee00">More...</a><br /></td></tr>
 <tr class="separator:ad0155b412168790a5b9cd22903f1ee00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,6 +117,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a34da5b1cf63c721c958a35e6d402ded8"><td class="memItemLeft" align="right" valign="top"><a id="a34da5b1cf63c721c958a35e6d402ded8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>chargeUse</b></td></tr>
+<tr class="separator:a34da5b1cf63c721c958a35e6d402ded8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdc327bf670a02d7133358da6f2cdc55"><td class="memItemLeft" align="right" valign="top"><a id="afdc327bf670a02d7133358da6f2cdc55"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>distance</b></td></tr>
 <tr class="separator:afdc327bf670a02d7133358da6f2cdc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,9 +135,6 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a4ebe17d28490f40bb6b2461d59c464c0"><td class="memItemLeft" align="right" valign="top"><a id="a4ebe17d28490f40bb6b2461d59c464c0"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>AtkDelay</b><code> [get, set]</code></td></tr>
-<tr class="separator:a4ebe17d28490f40bb6b2461d59c464c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc9467bdb909e96f89c972d80eec072"><td class="memItemLeft" align="right" valign="top"><a id="aefc9467bdb909e96f89c972d80eec072"></a>
 virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>Damage</b><code> [get, set]</code></td></tr>
 <tr class="separator:aefc9467bdb909e96f89c972d80eec072"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +172,33 @@ virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>WeaponUsage<
 </div><div class="memdoc">
 
 <p>when player release attack button </p>
+
+</div>
+</div>
+<a id="ae114910f8ba49a7942386840156d6ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae114910f8ba49a7942386840156d6ec2">&#9670;&nbsp;</a></span>HoldUse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BaseWeapon.HoldUse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>when player hold attack button </p>
 
 </div>
 </div>
@@ -232,7 +262,7 @@ virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>WeaponUsage<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classBaseWeapon.html">BaseWeapon</a></li>
-    <li class="footer">Generated on Thu Apr 18 2019 20:13:48 for Arkaroban by
+    <li class="footer">Generated on Wed Apr 24 2019 17:43:55 for Arkaroban by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>
