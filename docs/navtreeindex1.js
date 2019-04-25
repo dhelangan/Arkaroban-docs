@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classProjectileManager.html#a8c832c73ad69f2c8532b33cbcec56cec":[0,0,20,0],
 "classReceiverData.html":[0,0,21],
 "classReceiverData.html#a8624e07298069a36ae099580ff605d9e":[0,0,21,1],
 "classReceiverData.html#aa6d0fde0f4c97fea2e0490f5587b75d3":[0,0,21,0],

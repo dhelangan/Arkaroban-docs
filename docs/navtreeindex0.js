@@ -56,9 +56,10 @@ var NAVTREEINDEX0 =
 "classBasePickup.html#a12e157ac3a0ca873e9b27f8577cef0ba":[0,0,2,1],
 "classBasePickup.html#a19825627b10adb1114b2672f424927b3":[0,0,2,2],
 "classBasePickup.html#a35e28952e5086af88ab1971e8258d220":[0,0,2,4],
+"classBasePickup.html#a47e779a355d43f86fe26fe43ebf089db":[0,0,2,6],
 "classBasePickup.html#a628bb5d9163ece22f6cf890b97047ed9":[0,0,2,5],
 "classBasePickup.html#a84f8447c5d6387725a2df82013404bfb":[0,0,2,3],
-"classBasePickup.html#a9c429b1182294315747944758ee0ac8a":[0,0,2,6],
+"classBasePickup.html#a9c429b1182294315747944758ee0ac8a":[0,0,2,7],
 "classBasePickup.html#aedb4e503fb04278f8d2943b7c56e3f0f":[0,0,2,0],
 "classBaseProjectile.html":[0,0,3],
 "classBaseProjectile.html#a166183a57322846f2fc666e551453f54":[0,0,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classPopupText.html#a4907c2db41903170a9a3c758d1915a05":[0,0,19,0],
 "classPopupText.html#a6d5472cb183150590c8e69dc95f6b0b2":[0,0,19,1],
 "classProjectileManager.html":[0,0,20],
-"classProjectileManager.html#a786cfa42a3163614006dc8ba1c525392":[0,0,20,1],
-"classProjectileManager.html#a8c832c73ad69f2c8532b33cbcec56cec":[0,0,20,0]
+"classProjectileManager.html#a786cfa42a3163614006dc8ba1c525392":[0,0,20,1]
 };
